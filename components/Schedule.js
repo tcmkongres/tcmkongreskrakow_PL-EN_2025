@@ -5,29 +5,32 @@ import clsx from "clsx";
 import { useTranslation } from "next-i18next";
 import { useRouter } from "next/router";
 
+// =======================================
+//    Nowe dane: POLSKA WERSJA (schedulePL)
+// =======================================
+
 const schedulePL = [
   {
     date: "Piątek",
     dateTime: "2023-10-13",
-    summary: "Dzien 1.",
+    summary: "Dzień 1.",
     timeSlots: [
       {
-        name: "Sesja plenarna",
-        description: "Powitanie",
+        name: "Powitanie",
+        description: "Izabela Miętka, Kasia Sieluk, Yair Maimon, Ela Heland",
         start: "10:00",
-        end: "10:15",
+        end: "10:30",
       },
       {
-        name: "Marek Kalmus",
-        description:
-          "Dlaczego medycyna chińska nie powinna upodobaniać się do medycyny zachodniej?",
-        start: "10:15",
-        end: "10:45",
+        name: "Wykład",
+        description: "Yair Maimon",
+        start: "10:30",
+        end: "11:00",
       },
       {
-        name: "Yair Maimon",
-        description: "Wszystko o łzach.",
-        start: "10:45",
+        name: "Wykład",
+        description: "Izabela Miętka",
+        start: "11:00",
         end: "11:30",
       },
       {
@@ -37,17 +40,21 @@ const schedulePL = [
         end: "12:00",
       },
       {
-        name: "Ricardo Teixeira ",
-        description:
-          "Spojrzenie długodystansowe: ewolucja Shen na przestrzeni czasu.",
+        name: "Wykład",
+        description: "Giulia Boschi",
         start: "12:00",
-        end: "12:45",
+        end: "12:30",
       },
       {
-        name: "Marta Nizioł-Wojniusz",
-        description:
-          "Trauma – zerwane połączenie: rola Shao Yin w kontekście doświadczenia traumy.",
-        start: "12:45",
+        name: "Wykład",
+        description: "Ricardo Teixeira",
+        start: "12:30",
+        end: "13:00",
+      },
+      {
+        name: "Wykład",
+        description: "Marta Nizioł",
+        start: "13:00",
         end: "13:30",
       },
       {
@@ -57,197 +64,160 @@ const schedulePL = [
         end: "15:00",
       },
       {
-        name: "Prof. Li Jie",
-        description: "Odpowiedzi na trudne pytania",
-        start: "14:30",
-        end: "14:50",
-      },
-      {
-        name: "Marta Nizioł - Izabela Miętka - Katarzyna Pokrywka",
-        description: "Kobiece sprawy - odpowiedzi na trudne pytania",
-        start: "14:30",
-        end: "14:50",
-      },
-      {
-        name: "Hamid Montakab",
+        name: "Wykład 1",
         description:
-          "Montakab 'Sztuka starzenia się z wdziękiem i umierania w łasc'",
+          "Hamid Montakab (Tłum. Marta Nizioł). From Conception to Birth. Od poczęcia do narodzin. Akupunktura wspierająca okres ciąży oraz porodu.",
         start: "15:00",
-        end: "18:30",
+        end: "18:00",
       },
       {
-        name: "Bartosz Chmielnicki",
+        name: "Wykład 2",
         description:
-          "Zimno i Gorąco – nieproszeni goście. Strategie Shang Han Lun i Wen Bing w walce z patogenami.",
+          "Ricardo Teixeira (Tłum. Irena Susz). Workshop: Acupuncture Techniques – Adding effective tools to your Clinical Toolkit. Warsztat: Techniki akupunktury – dodatkowe skuteczne narzędzia do Twojej praktyki.",
         start: "15:00",
-        end: "18:30",
+        end: "18:00",
       },
       {
-        name: "Prof. Li Jie",
-        description: "Akupunktura Ling Shu Jing . Co i dlaczego?",
+        name: "Wykład 3",
+        description:
+          "Mazin Al-Khafaji (Tłum. Ania Słowik). Dermatologia w medycynie chińskiej. Dermatology in Chinese Medicine.",
         start: "15:00",
-        end: "18:30",
+        end: "18:00",
       },
     ],
   },
   {
     date: "Sobota",
     dateTime: "2023-10-14",
-    summary: "Dzien 2.",
+    summary: "Dzień 2.",
     timeSlots: [
       {
-        name: "Bożena Olszowska",
-        description: "Poranny QiGong",
-        start: "7:30",
-        end: "8:15",
-        place: "Taras",
-      },
-      {
-        name: "Rani Ayal",
-        description: "Pieśń Jadeitowego Smoka: 12 magicznych punktów",
-        start: "9:00",
-        end: "13:00",
-        place: "Sala A",
-      },
-      {
-        name: "Jong Baik",
+        name: "Wykład 1",
         description:
-          "Koreańska Terapia Dłoni (KHT) dla problemów ginekologicznych, niepłodności i wspomaganego zachodzenia w ciążę. Cz.1",
-        start: "9:30",
-        end: "13:00",
-        place: "Sala B",
+          "Hamid Montakab (Tłum. Marta Nizioł). The 8 Extraordinary Vessels and psychological profiles. 8 Kanałów Cudownych oraz profile psychologiczne cz.1",
+        start: "10:00",
+        end: "13:30",
       },
       {
-        name: "Ricardo Teixeira",
-        description: "Kreatywne Hun. W jaki sposób Hun wpływa na nasze życie",
-        start: "9:30",
-        end: "13:00",
-        place: "Sala C",
-      },
-      {
-        name: "Dorota Łapa",
+        name: "Wykład 2",
         description:
-          "Jak oczyszczać dietą osoby z niedoborami? Oczyszczanie z wykorzystaniem podstaw wzmacniania Qi i Krwi wg medycyny chińskiej.",
-        start: "9:30",
-        end: "13:00",
-        place: "Sala D",
-      },
-      {
-        name: "Panel Rani Ayal - Yair Maimon",
-        description: "Odpowiedzi na trudne pytania",
-        start: "13:10",
+          "Yair Maimon / Izabela Miętka. Acupuncture Treatment of menopause Haven, Earth perspective. Akupunktura w leczeniu menopauzy – perspektywa Nieba i Ziemi.",
+        start: "10:00",
         end: "13:30",
-        place: "Sala A",
       },
       {
-        name: "Dorota Łapa i Joanna Brejecka",
-        description: "Odpowiedzi na pytania o zioła i dietę.",
-        start: "13:10",
+        name: "Wykład 3",
+        description:
+          "Mazin Al-Khafaji (Tłum. Ania Słowik). Treating Atopic Dermatitis in Infants. Leczenie atopowego zapalenia skóry u niemowląt.",
+        start: "10:00",
         end: "13:30",
-        place: "Sala D",
       },
       {
-        name: "Przerwa obiadowa ",
+        name: "Przerwa obiadowa",
         description: null,
         start: "13:30",
         end: "15:00",
-        place: "Sala B",
       },
       {
-        name: "Yair Maimon ",
-        description: "Regulowanie układu odpornościowego w TMC",
+        name: "Ricardo Teixeira",
+        description: "brak tłumaczenia",
+        start: "13:30",
+        end: "15:00",
+      },
+      {
+        name: "Wykład 1",
+        description:
+          "Hamid Montakab (Tłum. Marta Nizioł). The 8 Extraordinary Vessels and psychological profiles part 2. 8 Kanałów Cudownych oraz profile psychologiczne cz.2",
         start: "15:00",
         end: "18:00",
-        place: "Sala A",
       },
+      // {
+      //   name: "Wykład 2",
+      //   description: "brak danych",
+      //   start: "15:00",
+      //   end: "18:00",
+      // },
       {
-        name: "Jong Baik",
+        name: "Wykład 3",
         description:
-          "Terapia Dłoni (KHT) dla problemów ginekologicznych, niepłodności i wspomaganego zachodzenia w ciążę. Cz.2",
+          "Jong Baik (Tłum. Ania Słowik). An Explanation of the Interrelationship between Jing, Qi and Shen. Wyjaśnienie Wzajemnej Zależności między Jing, Qi i Shen.",
         start: "15:00",
-        end: "18:30",
-        place: "Sala B",
-      },
-      {
-        name: "Hamid Montakab",
-        description:
-          "Postępowanie w alergiach sezonowych i przewlekłych w praktyce klinicznej",
-        start: "15:00",
-        end: "18:30",
-        place: "Sala C",
+        end: "18:00",
       },
       {
         name: "Bankiet",
         description: null,
-        start: "19:30",
-        end: "23:00",
-        place: "Taras",
+        start: "20:00",
+        end: "24:00",
       },
     ],
   },
   {
     date: "Niedziela",
     dateTime: "2023-10-15",
-    summary: "Dzien 3.",
+    summary: "Dzień 3.",
     timeSlots: [
       {
-        name: "Joanna Brejecka- Pamungkas",
+        name: "Wykład 1",
         description:
-          "Przewlekłe infekcje oddechowe u dzieci  - wzorce patologii, fitoterapia zachodnia wg tcm, tuina" +
-          " pediatryczna. cz. 1",
-        start: "9:00",
-        end: "11:00",
-        place: "Sala A",
+          "Jong Baik (Tłum. Ania Słowik). A Multi-Microsystems Approach to Pain and Pain Management. Podejście multi-mikrosystemowe w pracy z bólem.",
+        start: "9:30",
+        end: "12:30",
       },
       {
-        name: "Bożena Olszowska",
+        name: "Wykład 2",
         description:
-          "Chińska sztuka czytania z twarzy - przejrzeć wszystko na wylot. cz. 1",
-        start: "9:00",
-        end: "11:00",
-        place: "Sala B",
+          "Giulia Boschi (Tłum. Marta Nizioł). Beyond the seven qing: the language of emotions in Classical Chinese Medicine. Poza siedmioma qing: język emocji w klasycznej medycynie chińskiej.",
+        start: "9:30",
+        end: "12:30",
       },
       {
-        name: "Kasia Pokrywka",
+        name: "Wykład 3",
         description:
-          "Akupunktura wspierająca proces zapłodnienia in vitro. cz. 1",
-        start: "9:00",
-        end: "11:00",
-        place: "Sala C",
+          "Mieke Fraussen. Face Reading, Trauma & Healing part 1. CZYTANIE Z TWARZY, TRAUMA I UZDROWIENIE. Cz.1",
+        start: "9:30",
+        end: "12:30",
       },
       {
-        name: "Przerwa",
+        name: "Przerwa obiadowa",
         description: null,
-        start: "11:00",
-        end: "12:15",
+        start: "12:30",
+        end: "13:30",
       },
       {
-        name: "Joanna Brejecka- Pamungkas",
-        description:
-          "Przewlekłe infekcje oddechowe u dzieci - wzorce patologii, fitoterapia zachodnia wg tcm, tuina pediatryczna. Cz. 2",
-        start: "12:15",
-        end: "14:00",
-        place: "Sala A",
+        name: "Transformująca rola elementu Ziemi",
+        description: "Marta Nizioł",
+        start: "12:30",
+        end: "13:30",
       },
       {
-        name: "Bożena Olszowska",
+        name: "Wykład 1",
         description:
-          "Chińska sztuka czytania z twarzy - przejrzeć wszystko na wylot. Cz. 2",
-        start: "12:15",
-        end: "14:00",
-        place: "Sala B",
+          "Jeffrey Hui Zhang (Tłum. Ania Słowik). Weiqi (Qi obronne) i Wei-Qi (poziomy): Integracja Shang Han Lun i Wen Bing. WeiQi (Defensive Qi) and Wei-Qi (Levels): Integrating Shang Han Lun and Wen Bing.",
+        start: "13:30",
+        end: "16:30",
       },
       {
-        name: "Kasia Pokrywka ",
+        name: "Wykład 2",
         description:
-          "Akupunktura wspierająca proces zapłodnienia in vitro. Cz. 2",
-        start: "12:15",
-        end: "14:00",
-        place: "Sala C",
+          "Bartosz Chmielnicki. Krew i oddech, czyli skąd się wzięła akupunktura? Blood and Breath: The Origins of Acupuncture.",
+        start: "13:30",
+        end: "16:30",
+      },
+      {
+        name: "Wykład 3",
+        description:
+          "Mieke Fraussen. Face Reading, Trauma & Healing. CZYTANIE Z TWARZY, TRAUMA I UZDROWIENIE. Cz.2",
+        start: "13:30",
+        end: "16:30",
       },
     ],
   },
 ];
+
+// ============================================
+//    Nowe dane: ANGIELSKA WERSJA (scheduleEN)
+// ============================================
 
 const scheduleEN = [
   {
@@ -256,22 +226,22 @@ const scheduleEN = [
     summary: "Day 1.",
     timeSlots: [
       {
-        name: "Plenary Session",
-        description: "Welcome",
-        start: "10:00",
-        end: "10:15",
-      },
-      {
-        name: "Marek Kalmus",
+        name: "Welcome",
         description:
-          "Why should Chinese medicine not resemble Western medicine?",
-        start: "10:15",
-        end: "10:45",
+          "Izabela Miętka, Kasia Sieluk, Yair Maimon, Ela Heland (brak tłumaczenia)",
+        start: "10:00",
+        end: "10:30",
       },
       {
-        name: "Yair Maimon",
-        description: "All about tears.",
-        start: "10:45",
+        name: "Lecture",
+        description: "Yair Maimon (brak tłumaczenia)",
+        start: "10:30",
+        end: "11:00",
+      },
+      {
+        name: "Lecture",
+        description: "Izabela Miętka (brak tłumaczenia)",
+        start: "11:00",
         end: "11:30",
       },
       {
@@ -281,16 +251,21 @@ const scheduleEN = [
         end: "12:00",
       },
       {
-        name: "Ricardo Teixeira ",
-        description: "A Long-distance Look: the evolution of Shen over time.",
+        name: "Lecture",
+        description: "Giulia Boschi (brak tłumaczenia)",
         start: "12:00",
-        end: "12:45",
+        end: "12:30",
       },
       {
-        name: "Marta Nizioł-Wojniusz",
-        description:
-          "Trauma – broken connection: the role of Shao Yin in the context of experiencing trauma.",
-        start: "12:45",
+        name: "Lecture",
+        description: "Ricardo Teixeira (brak tłumaczenia)",
+        start: "12:30",
+        end: "13:00",
+      },
+      {
+        name: "Lecture",
+        description: "Marta Nizioł (brak tłumaczenia)",
+        start: "13:00",
         end: "13:30",
       },
       {
@@ -300,36 +275,25 @@ const scheduleEN = [
         end: "15:00",
       },
       {
-        name: "Prof. Li Jie",
-        description: "Answers to difficult questions",
-        start: "14:30",
-        end: "14:50",
-      },
-      {
-        name: "Marta Nizioł - Izabela Miętka - Katarzyna Pokrywka",
-        description: "Women's matters - answers to difficult questions",
-        start: "14:30",
-        end: "14:50",
-      },
-      {
-        name: "Hamid Montakab",
+        name: "Lecture 1",
         description:
-          "Montakab 'The art of aging gracefully and dying in grace'",
+          "Hamid Montakab (interp. by Marta Nizioł). From Conception to Birth. (Od poczęcia do narodzin. Akupunktura wspierająca okres ciąży oraz porodu – brak tłumaczenia)",
         start: "15:00",
-        end: "18:30",
+        end: "18:00",
       },
       {
-        name: "Bartosz Chmielnicki",
+        name: "Lecture 2",
         description:
-          "Cold and Hot – uninvited guests. Strategies of Shang Han Lun and Wen Bing in fighting pathogens.",
+          "Ricardo Teixeira (interp. by Irena Susz). Workshop: Acupuncture Techniques – Adding effective tools to your Clinical Toolkit. (Warsztat: Techniki akupunktury – dodatkowe skuteczne narzędzia do Twojej praktyki – brak tłumaczenia)",
         start: "15:00",
-        end: "18:30",
+        end: "18:00",
       },
       {
-        name: "Prof. Li Jie",
-        description: "Acupuncture of Ling Shu Jing. What and why?",
+        name: "Lecture 3",
+        description:
+          "Mazin Al-Khafaji (interp. by Ania Słowik). Dermatology in Chinese Medicine. (Dermatologia w medycynie chińskiej – brak tłumaczenia)",
         start: "15:00",
-        end: "18:30",
+        end: "18:00",
       },
     ],
   },
@@ -339,92 +303,63 @@ const scheduleEN = [
     summary: "Day 2.",
     timeSlots: [
       {
-        name: "Bożena Olszowska",
-        description: "Morning QiGong",
-        start: "7:30",
-        end: "8:15",
-        place: "Terrace",
-      },
-      {
-        name: "Rani Ayal",
-        description: "Song of the Jade Dragon: 12 magical points",
-        start: "9:00",
-        end: "13:00",
-        place: "Room A",
-      },
-      {
-        name: "Jong Baik",
+        name: "Lecture 1",
         description:
-          "Korean Hand Therapy (KHT) for gynecological problems, infertility, and assisted conception. Pt. 1",
-        start: "9:30",
-        end: "13:00",
-        place: "Room B",
+          "Hamid Montakab (interp. by Marta Nizioł). The 8 Extraordinary Vessels and psychological profiles part 1. (8 Kanałów Cudownych oraz profile psychologiczne cz.1 – brak tłumaczenia)",
+        start: "10:00",
+        end: "13:30",
       },
       {
-        name: "Ricardo Teixeira",
-        description: "Creative Hun. How Hun influences our life",
-        start: "9:30",
-        end: "13:00",
-        place: "Room C",
-      },
-      {
-        name: "Dorota Łapa",
+        name: "Lecture 2",
         description:
-          "How to cleanse with a diet people with deficiencies? Cleansing using the basics of strengthening Qi and Blood according to Chinese medicine.",
-        start: "9:30",
-        end: "13:00",
-        place: "Room D",
+          "Yair Maimon / Izabela Miętka. Acupuncture Treatment of menopause Haven, Earth perspective. (Akupunktura w leczeniu menopauzy – perspektywa Nieba i Ziemi – brak tłumaczenia)",
+        start: "10:00",
+        end: "13:30",
       },
       {
-        name: "Panel Rani Ayal - Yair Maimon",
-        description: "Answers to difficult questions",
-        start: "13:10",
+        name: "Lecture 3",
+        description:
+          "Mazin Al-Khafaji (interp. by Ania Słowik). Treating Atopic Dermatitis in Infants. (Leczenie atopowego zapalenia skóry u niemowląt – brak tłumaczenia)",
+        start: "10:00",
         end: "13:30",
-        place: "Room A",
-      },
-      {
-        name: "Dorota Łapa and Joanna Brejecka",
-        description: "Answers to questions about herbs and diet.",
-        start: "13:10",
-        end: "13:30",
-        place: "Room D",
       },
       {
         name: "Lunch Break",
         description: null,
         start: "13:30",
         end: "15:00",
-        place: "Room B",
       },
       {
-        name: "Yair Maimon ",
-        description: "Regulating the immune system in TCM",
+        name: "Ricardo Teixeira",
+        description: null,
+        start: "13:30",
+        end: "15:00",
+      },
+      {
+        name: "Lecture 1",
+        description:
+          "Hamid Montakab (interp. by Marta Nizioł). The 8 Extraordinary Vessels and psychological profiles part 2. (8 Kanałów Cudownych oraz profile psychologiczne cz.2 – brak tłumaczenia)",
         start: "15:00",
         end: "18:00",
-        place: "Room A",
       },
+      // {
+      //   name: "Lecture 2",
+      //   description: "brak danych",
+      //   start: "15:00",
+      //   end: "18:00",
+      // },
       {
-        name: "Jong Baik",
+        name: "Lecture 3",
         description:
-          "Hand Therapy (KHT) for gynecological problems, infertility, and assisted conception. Pt. 2",
+          "Jong Baik (interp. by Ania Słowik). An Explanation of the Interrelationship between Jing, Qi and Shen. (Wyjaśnienie Wzajemnej Zależności między Jing, Qi i Shen – brak tłumaczenia)",
         start: "15:00",
-        end: "18:30",
-        place: "Room B",
-      },
-      {
-        name: "Hamid Montakab",
-        description:
-          "Managing seasonal and chronic allergies in clinical practice",
-        start: "15:00",
-        end: "18:30",
-        place: "Room C",
+        end: "18:00",
       },
       {
         name: "Banquet",
         description: null,
-        start: "19:30",
-        end: "23:00",
-        place: "Terrace",
+        start: "20:00",
+        end: "24:00",
       },
     ],
   },
@@ -434,58 +369,58 @@ const scheduleEN = [
     summary: "Day 3.",
     timeSlots: [
       {
-        name: "Joanna Brejecka- Pamungkas",
+        name: "Lecture 1",
         description:
-          "Chronic respiratory infections in children - pathology patterns, western phytotherapy according to TCM, pediatric tuina. Pt. 1",
-        start: "9:00",
-        end: "11:00",
-        place: "Room A",
+          "Jong Baik (interp. by Ania Słowik). A Multi-Microsystems Approach to Pain and Pain Management. (Podejście multi-mikrosystemowe w pracy z bólem – brak tłumaczenia)",
+        start: "9:30",
+        end: "12:30",
       },
       {
-        name: "Bożena Olszowska",
+        name: "Lecture 2",
         description:
-          "Chinese art of face reading - see through everything. Pt. 1",
-        start: "9:00",
-        end: "11:00",
-        place: "Room B",
+          "Giulia Boschi (interp. by Marta Nizioł). Beyond the seven qing: the language of emotions in Classical Chinese Medicine. (Poza siedmioma qing: język emocji w klasycznej medycynie chińskiej – brak tłumaczenia)",
+        start: "9:30",
+        end: "12:30",
       },
       {
-        name: "Kasia Pokrywka",
+        name: "Lecture 3",
         description:
-          "Acupuncture supporting the in vitro fertilization process. Pt. 1",
-        start: "9:00",
-        end: "11:00",
-        place: "Room C",
+          "Mieke Fraussen. Face Reading, Trauma & Healing part 1. (CZYTANIE Z TWARZY, TRAUMA I UZDROWIENIE. Cz.1 – brak tłumaczenia)",
+        start: "9:30",
+        end: "12:30",
       },
       {
-        name: "Break",
+        name: "Lunch Break",
         description: null,
-        start: "11:00",
-        end: "12:15",
+        start: "12:30",
+        end: "13:30",
       },
       {
-        name: "Joanna Brejecka- Pamungkas",
-        description:
-          "Chronic respiratory infections in children - pathology patterns, western phytotherapy according to TCM, pediatric tuina. Pt. 2",
-        start: "11:15",
-        end: "14:00",
-        place: "Room A",
+        name: "Transforming role of the Earth element",
+        description: "Marta Nizioł (brak tłumaczenia)",
+        start: "12:30",
+        end: "13:30",
       },
       {
-        name: "Bożena Olszowska",
+        name: "Lecture 1",
         description:
-          "Chinese art of face reading - see through everything. Pt. 2",
-        start: "11:15",
-        end: "14:00",
-        place: "Room B",
+          "Jeffrey Hui Zhang (interp. by Ania Słowik). WeiQi (Defensive Qi) and Wei-Qi (Levels): Integrating Shang Han Lun and Wen Bing. (Weiqi (Qi obronne) i Wei-Qi (poziomy): Integracja Shang Han Lun i Wen Bing – brak tłumaczenia)",
+        start: "13:30",
+        end: "16:30",
       },
       {
-        name: "Kasia Pokrywka",
+        name: "Lecture 2",
         description:
-          "Acupuncture supporting the in vitro fertilization process. Pt. 2",
-        start: "11:15",
-        end: "14:00",
-        place: "Room C",
+          "Bartosz Chmielnicki. Blood and Breath: The Origins of Acupuncture. (Krew i oddech, czyli skąd się wzięła akupunktura? – brak tłumaczenia)",
+        start: "13:30",
+        end: "16:30",
+      },
+      {
+        name: "Lecture 3",
+        description:
+          "Mieke Fraussen. Face Reading, Trauma & Healing part 2. (CZYTANIE Z TWARZY, TRAUMA I UZDROWIENIE. Cz.2 – brak tłumaczenia)",
+        start: "13:30",
+        end: "16:30",
       },
     ],
   },
@@ -524,7 +459,7 @@ function ScheduleTabbed() {
               key={dayIndex}
               className={clsx(
                 "relative w-3/4 flex-none pr-4 sm:w-auto sm:pr-0",
-                dayIndex !== selectedIndex && "opacity-70"
+                dayIndex !== selectedIndex && "opacity-70",
               )}
             >
               <DaySummary
@@ -584,7 +519,7 @@ function TimeSlots({ day, className }) {
       role="list"
       className={clsx(
         className,
-        "space-y-8 bg-white/60 px-10 py-14 text-center shadow-xl shadow-blue-900/5 backdrop-blur"
+        "space-y-8 bg-white/60 px-10 py-14 text-center shadow-xl shadow-blue-900/5 backdrop-blur",
       )}
     >
       {day.timeSlots.map((timeSlot, timeSlotIndex) => (
