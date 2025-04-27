@@ -1,40 +1,24 @@
 import Image from "next/image";
-import Pokrywka from "@/public/images/Pokrywka.jpeg";
-import Olszowska from "@/public/images/Olszowska.jpeg";
-import Lapa from "@/public/images/Lapa.png";
-import Brejecka from "@/public/images/Brejecka.png";
 import Chmielnicki from "@/public/images/Chmielnicki.png";
 import Maimon from "@/public/images/Maimon.png";
-import Ayal from "@/public/images/Ayal.png";
 import Teixeira from "@/public/images/Teixeira.png";
-import Jie from "@/public/images/Jie.png";
 import Montakab from "@/public/images/Montakab.jpeg";
-import Baik from "@/public/images/Baik.jpg";
+import Baik from "@/public/images/Baik.png";
 import Mietka from "@/public/images/Mietka.png";
 import Wojniusz from "@/public/images/Wojniusz.jpg";
-import Kalmus from "@/public/images/Kalmus.jpg";
+import Fraussen from "@/public/images/Fraussen.png";
 import { useTranslation } from "next-i18next";
 
 const people = [
   {
-    name: "Katarzyna Pokrywka",
-    imageUrl: Pokrywka,
-    url: "/pokrywka",
+    name: "Yair Maimon",
+    imageUrl: Maimon,
+    url: "/maimon",
   },
   {
-    name: "Bożena Olszowska",
-    imageUrl: Olszowska,
-    url: "/olszowska",
-  },
-  {
-    name: "Dorota Łapa",
-    imageUrl: Lapa,
-    url: "/lapa",
-  },
-  {
-    name: "Joanna Brejecka-Pamungkas",
-    imageUrl: Brejecka,
-    url: "/brejecka",
+    name: "Hamid Montakab",
+    imageUrl: Montakab,
+    url: "/montakab",
   },
   {
     name: "Bartosz Chmielnicki",
@@ -42,29 +26,9 @@ const people = [
     url: "/chmielnicki",
   },
   {
-    name: "Yair Maimon",
-    imageUrl: Maimon,
-    url: "/maimon",
-  },
-  {
-    name: "Rani Ayal",
-    imageUrl: Ayal,
-    url: "/ayal",
-  },
-  {
     name: "Ricardo Teixeira",
     imageUrl: Teixeira,
     url: "/teixeira",
-  },
-  {
-    name: "Prof. Li Jie",
-    imageUrl: Jie,
-    url: "/jie",
-  },
-  {
-    name: "Hamid Montakab",
-    imageUrl: Montakab,
-    url: "/montakab",
   },
   {
     name: "Jong Kook Baik",
@@ -82,14 +46,12 @@ const people = [
     url: "/wojniusz",
   },
   {
-    name: "Dr Marek Kalmus",
-    imageUrl: Kalmus,
-    url: "/kalmus",
+    name: "Mieke Fraussen",
+    imageUrl: Fraussen,
+    url: "/fraussen",
   },
-  // More people...
 ];
 
-//sortowanie
 people.sort((a, b) =>
   a.name.localeCompare(b.name, "pl", { sensitivity: "base" }),
 );
@@ -105,18 +67,6 @@ export default function Speakers() {
           <p className="mt-6 text-lg leading-8 text-gray-600">
             {t("tytul_Speakers2")}
           </p>
-
-          {/*<div className="mt-10 flex items-center justify-center gap-x-6">*/}
-          {/*  <Link*/}
-          {/*    href="/details"*/}
-          {/*    className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm*/}
-          {/*    font-semibold text-white shadow-sm hover:bg-indigo-500*/}
-          {/*    focus-visible:outline focus-visible:outline-2*/}
-          {/*    focus-visible:outline-offset-2 focus-visible:outline-indigo-600"*/}
-          {/*  >*/}
-          {/*    {t("przycisk_Speakers")} <span aria-hidden="true">→</span>*/}
-          {/*  </Link>*/}
-          {/*</div>*/}
         </div>
         <ul
           role="list"
