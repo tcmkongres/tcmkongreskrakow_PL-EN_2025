@@ -98,7 +98,7 @@ export default function Footer() {
         </div>
         <p className="mt-10 text-center text-xs leading-5 text-gray-500"></p>
         <p className="mt-10 text-center text-xs leading-5 text-gray-500">
-          &copy; 2023. All rights reserved. Made with ❤️ by{" "}
+          &copy; 2023-2505. All rights reserved. Made with ❤️ by{" "}
           <a
             href={"https://www.linkedin.com/in/aleksanderjedynak/"}
             target="_blank"
