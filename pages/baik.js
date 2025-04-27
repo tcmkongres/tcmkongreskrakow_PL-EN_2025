@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Baik from "@/public/images/Baik.jpg";
+import Baik from "@/public/images/Baik.png";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useTranslation } from "next-i18next";
 import Link from "next/link";
