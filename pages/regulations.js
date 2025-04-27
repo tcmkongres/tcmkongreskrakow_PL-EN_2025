@@ -16,7 +16,7 @@ export default function Page() {
           </Link>
         </p>
         <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-          REGULAMIN TCM KONGRES KRAKÓW 2023
+          REGULAMIN TCM KONGRES KRAKÓW 2025
         </h1>
 
         <div className="mt-10">
@@ -29,7 +29,7 @@ export default function Page() {
               <span>
                 <strong className="font-semibold text-gray-900">1.</strong>{" "}
                 Niniejszy regulamin określa warunki, na jakich odbywa się TCM
-                Kongres Kraków 2023 w dniach 13-15 października 2023r., zwany
+                Kongres Kraków 2025 w dniach 10-12 października 2025r., zwany
                 dalej Kongresem.
               </span>
             </li>
@@ -64,8 +64,8 @@ export default function Page() {
               />
               <span>
                 <strong className="font-semibold text-gray-900">4.</strong>{" "}
-                Kongres jest organizowany: – na terenie Hotelu Galaxy ul. Gęsia
-                22 a, Kraków,
+                Kongres jest organizowany: – na terenie Qubus Hotel Kraków, ul.
+                Nadwiślańska 6, Podgórze, 30-527 Kraków, Polska
               </span>
             </li>
             <li className="flex gap-x-3">
@@ -87,7 +87,7 @@ export default function Page() {
               <span>
                 <strong className="font-semibold text-gray-900">6.</strong>{" "}
                 Istnieje mozliwość zakupu biletu na mijescu w kasie Kongresu w
-                dniach wydarzenia 13-15 października 2023r.
+                dniach wydarzenia 10-12 października 2025r.
               </span>
             </li>
             <li className="flex gap-x-3">
@@ -99,7 +99,7 @@ export default function Page() {
                 <strong className="font-semibold text-gray-900">7.</strong>{" "}
                 Kupując bilet Uczestnik zgadza się na umieszczenie danych
                 osobowych w bazie Polskiego Towarzystwa Medycyny Chińskiej, w
-                celu przeprowadzenia TCM Kongres Kraków 2023, osobowych zgodnie
+                celu przeprowadzenia TCM Kongres Kraków 2025, osobowych zgodnie
                 z ustawą z dnia 14 grudnia 2018 r. o ochronie danych osobowych.
                 Podanie danych osobowych ma charakter dobrowolny, a podającemu
                 przysługuje prawo wglądu do tych danych, jak i możliwość ich
@@ -126,7 +126,7 @@ export default function Page() {
               <span>
                 <strong className="font-semibold text-gray-900">9.</strong>{" "}
                 Oficjalne zakończenie sprzedaży biletów następuje dnia
-                12.10.2023 r.
+                12.10.2025 r.
               </span>
             </li>
             <li className="flex gap-x-3">
@@ -254,7 +254,7 @@ export default function Page() {
           </Link>
         </p>
         <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-          TERMS AND CONDITIONS OF TCM CONGRESS KRAKOW 2023
+          TERMS AND CONDITIONS OF TCM CONGRESS KRAKOW 2025
         </h1>
 
         <div className="mt-10">
@@ -267,8 +267,8 @@ export default function Page() {
               <span>
                 <strong className="font-semibold text-gray-900">1.</strong>{" "}
                 These terms and conditions define the conditions under which the
-                TCM Congress Krakow 2023, hereinafter referred to as the
-                Congress, will take place on October 13-15, 2023.
+                TCM Congress Krakow 2025, hereinafter referred to as the
+                Congress, will take place on October 10-12, 2025.
               </span>
             </li>
             <li className="flex gap-x-3">
@@ -303,8 +303,8 @@ export default function Page() {
               />
               <span>
                 <strong className="font-semibold text-gray-900">4.</strong> The
-                Congress is organized at the Hotel Galaxy, ul. Gęsia 22a,
-                Krakow.
+                Congress is organized at the Qubus Hotel Kraków, ul.
+                Nadwiślańska 6, Podgórze, 30-527 Kraków, Polska.
               </span>
             </li>
             <li className="flex gap-x-3">
@@ -326,7 +326,7 @@ export default function Page() {
               <span>
                 <strong className="font-semibold text-gray-900">6.</strong> It
                 is possible to purchase a ticket on-site at the Congress ticket
-                office during the event on October 13-15, 2023.
+                office during the event on October 10-12, 2025.
               </span>
             </li>
             <li className="flex gap-x-3">
@@ -339,7 +339,7 @@ export default function Page() {
                 purchasing a ticket, the Participant agrees to the processing of
                 personal data by the Polish Society of Traditional Chinese
                 Medicine for the purpose of conducting the TCM Congress Krakow
-                2023, in accordance with the Act of December 14, 2018, on the
+                2025, in accordance with the Act of December 14, 2018, on the
                 protection of personal data. Providing personal data is
                 voluntary, and the data subject has the right to access, modify,
                 and delete the data after the Congress ends.
@@ -364,7 +364,7 @@ export default function Page() {
               />
               <span>
                 <strong className="font-semibold text-gray-900">9.</strong> The
-                official end of ticket sales is on October 12, 2023.
+                official end of ticket sales is on October 12, 2025.
               </span>
             </li>
             <li className="flex gap-x-3">
