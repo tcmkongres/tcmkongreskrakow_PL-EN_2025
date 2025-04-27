@@ -92,6 +92,12 @@ const schedulePL = [
     summary: "Dzień 2.",
     timeSlots: [
       {
+        name: "Qi Gong",
+        description: "Bożena Olszowska",
+        start: "08:00",
+        end: "08:30",
+      },
+      {
         name: "Wykład 1",
         description:
           "Hamid Montakab (Tłum. Marta Nizioł). The 8 Extraordinary Vessels and psychological profiles. 8 Kanałów Cudownych oraz profile psychologiczne cz.1",
@@ -157,6 +163,12 @@ const schedulePL = [
     dateTime: "2023-10-15",
     summary: "Dzień 3.",
     timeSlots: [
+      {
+        name: "Qi Gong",
+        description: "Bożena Olszowska",
+        start: "08:00",
+        end: "08:30",
+      },
       {
         name: "Wykład 1",
         description:
@@ -303,6 +315,12 @@ const scheduleEN = [
     summary: "Day 2.",
     timeSlots: [
       {
+        name: "Qi Gong",
+        description: "Bożena Olszowska",
+        start: "08:00",
+        end: "08:30",
+      },
+      {
         name: "Lecture 1",
         description:
           "Hamid Montakab (interp. by Marta Nizioł). The 8 Extraordinary Vessels and psychological profiles part 1. (8 Kanałów Cudownych oraz profile psychologiczne cz.1 – brak tłumaczenia)",
@@ -368,6 +386,12 @@ const scheduleEN = [
     dateTime: "2023-10-15",
     summary: "Day 3.",
     timeSlots: [
+      {
+        name: "Qi Gong",
+        description: "Bożena Olszowska",
+        start: "08:00",
+        end: "08:30",
+      },
       {
         name: "Lecture 1",
         description:
