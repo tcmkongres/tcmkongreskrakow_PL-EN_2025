@@ -10,18 +10,21 @@ const Downloa = () => {
   const { t } = useTranslation("common");
   return (
     <>
+      {/* Nowy skrypt EasyCart dla prod_SD2mldVQXiaiXV */}
       <Script
-        id="easycart-script-1"
-        src="https://app.easycart.pl/login.js?type=block&id=prod_NuFmJjdJesuRQe"
+        id="easycart-script-prod_SD2mldVQXiaiXV"
+        src="https://app.easycart.pl/login.js?type=block&id=prod_SD2mldVQXiaiXV"
       />
+      {/* Automatyczne przekierowanie jeśli blok nie załadował */}
       <Script
-        id="easycart-script-2"
+        id="easycart-redirect-prod_SD2mldVQXiaiXV"
         dangerouslySetInnerHTML={{
           __html: `
             !window._EC_HASH_6c7efbeece208f974613abda6d160721 && (location.href = "https://app.easycart.pl/r/prod_SD2mldVQXiaiXV");
           `,
         }}
       />
+      {/* Fallback w przypadku wyłączonego JS */}
       <noscript>
         <meta
           httpEquiv="refresh"
@@ -29,6 +32,7 @@ const Downloa = () => {
         />
       </noscript>
 
+      {/* Twoja reszta strony */}
       <div className="bg-white px-6 py-32 lg:px-8">
         <div className="mx-auto max-w-3xl min-h-full text-base leading-7 text-gray-700">
           <div data-free="true" className="px-4 sm:px-0">
