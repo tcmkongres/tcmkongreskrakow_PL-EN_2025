@@ -1,6 +1,5 @@
 "use client";
 
-import { PaperClipIcon } from "@heroicons/react/20/solid";
 import Script from "next/script";
 import { useTranslation } from "next-i18next";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
@@ -11,27 +10,28 @@ const Downloa = () => {
   return (
     <>
       <Script
-        id="my-script"
+        id="easycart-script-1"
         src="https://app.easycart.pl/login.js?type=block&id=prod_NuFmJjdJesuRQe"
       />
-      {/*<Script id="my-script2">*/}
-      {/*    {`*/}
-      {/*     !window._EC_HASH_a241b13b7a35f21e7582b7c341a6f514 && (location.href = "https://app.easycart.pl/r/prod_NuFmJjdJesuRQe");*/}
-      {/*  `}*/}
-      {/*</Script>*/}
+      <Script
+        id="easycart-script-2"
+        dangerouslySetInnerHTML={{
+          __html: `
+            !window._EC_HASH_6c7efbeece208f974613abda6d160721 && (location.href = "https://app.easycart.pl/r/prod_SD2mldVQXiaiXV");
+          `,
+        }}
+      />
       <noscript>
         <meta
-          http-equiv="refresh"
-          content="0;url=https://app.easycart.pl/r/prod_NuFmJjdJesuRQe"
+          httpEquiv="refresh"
+          content="0;url=https://app.easycart.pl/r/prod_SD2mldVQXiaiXV"
         />
       </noscript>
+
       <div className="bg-white px-6 py-32 lg:px-8">
-        <div className="mx-auto  max-w-3xl min-h-full text-base leading-7 text-gray-700">
+        <div className="mx-auto max-w-3xl min-h-full text-base leading-7 text-gray-700">
           <div data-free="true" className="px-4 sm:px-0">
-            <p
-              // data-free="true"
-              className="text-base font-semibold leading-7 mb-4 text-indigo-600"
-            >
+            <p className="text-base font-semibold leading-7 mb-4 text-indigo-600">
               <Link
                 href="/"
                 className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
@@ -242,6 +242,7 @@ const Downloa = () => {
     </>
   );
 };
+
 export async function getStaticProps({ locale }) {
   return {
     props: {
