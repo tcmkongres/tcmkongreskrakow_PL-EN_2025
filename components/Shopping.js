@@ -7,7 +7,7 @@ const ticketPL = [
     name: "Bilety spacjalne",
     id: "Bankiet",
     href: "https://app.easycart.pl/checkout/88568273/bankiet-tcm2023",
-    priceMonthly: "od 220 PLN",
+    priceMonthly: "od 260 PLN",
     description: "Bilet wstepu na dodatkowe wykłady",
     features: [
       "Możliwość uczestnictwa w bankiecie",
@@ -21,7 +21,7 @@ const ticketPL = [
     name: "Bilety na kongres",
     id: "Bilet",
     href: "https://app.easycart.pl/checkout/88568273/tcm-kongres-2023-ticket?promo=1",
-    priceMonthly: "od 407 PLN",
+    priceMonthly: "od 900 PLN",
     description: "Bilet wstępu na wykłady.",
     features: [
       "Uczestnitwo na wykladach w zalezności od wybranego biletu",
@@ -37,7 +37,7 @@ const ticketEN = [
     name: "Special Tickets",
     id: "Banquet",
     href: "https://app.easycart.pl/checkout/88568273/bankiet-tcm2023",
-    priceMonthly: "from 220 PLN",
+    priceMonthly: "from 260 PLN",
     description: "Entrance ticket for additional lectures",
     features: [
       "Opportunity to participate in the banquet",
@@ -51,7 +51,7 @@ const ticketEN = [
     name: "Congress Tickets",
     id: "Ticket",
     href: "https://app.easycart.pl/checkout/88568273/tcm-kongres-2023-ticket?promo=1",
-    priceMonthly: "from 407 PLN",
+    priceMonthly: "from 900 PLN",
     description: "Entrance ticket for lectures.",
     features: [
       "Participation in lectures depending on the chosen ticket",
@@ -138,12 +138,11 @@ export default function Shopping() {
                     </ul>
                   </div>
                   <a
-                    href={undefined} // Blokuje link
+                    href={tier.href}
                     aria-describedby={tier.id}
-                    onClick={(e) => e.preventDefault()} // Zatrzymuje kliknięcie
-                    className={`mt-8 block rounded-md px-3.5 py-2 text-center text-sm font-semibold leading-6 shadow-sm bg-gray-400 cursor-not-allowed opacity-50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600`}
+                    className="mt-8 block rounded-md bg-indigo-600 px-3.5 py-2 text-center text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                   >
-                    tutaj {t("kup_Koszyk")}
+                    {t("kup_Koszyk")}
                   </a>
                 </div>
               ))}
@@ -156,7 +155,6 @@ export default function Shopping() {
                     {t("opis_Koszyk2")}
                   </p>
                 </div>
-                {/*<Link href="/download" legacyBehavior>*/}
                 <a
                   className="rounded-md px-3.5 py-2 text-sm font-semibold leading-6 text-indigo-600 ring-1 ring-inset ring-indigo-200 hover:ring-indigo-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                   target="_blank"
@@ -166,7 +164,6 @@ export default function Shopping() {
                 >
                   {t("go_Koszyk")} <span aria-hidden="true">&rarr;</span>
                 </a>
-                {/*</Link>*/}
               </div>
             </div>
           </div>
