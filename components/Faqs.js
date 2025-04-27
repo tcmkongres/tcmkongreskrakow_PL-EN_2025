@@ -7,13 +7,14 @@ const faqsPL = [
     question:
       "Gdzie odbędzie się wydarzenie związane z medycyną chińską w Krakowie?",
     answer:
-      "Wydarzenie odbędzie się w Hotelu Galaxy ul. Gęsia 22A 31-535 Krakow",
+      "Wydarzenie odbędzie się w Qubus Hotel Kraków, ul. Nadwiślańska 6, Podgórze, 30-527 Kraków, Polska",
   },
   {
     id: 2,
     question: "Kiedy odbędzie się to wydarzenie?",
     answer:
-      "Wydarzenie odbędzie się w dniach 13-15 października  2023 r. Szczegółowy harmonogram wydarzenia znajdziesz na naszej stronie internetowej.",
+      "Wydarzenie odbędzie się w dniach 10-12 października  2025 r. Szczegółowy harmonogram wydarzenia znajdziesz na" +
+      " naszej stronie internetowej.",
   },
   {
     id: 3,
@@ -33,7 +34,6 @@ const faqsPL = [
     answer:
       "Tak, podczas wydarzenia wszystkie anglojęzyczne wykłady będą tłumaczone na język polski",
   },
-  // More questions...
 ];
 
 const faqsEN = [
@@ -41,13 +41,14 @@ const faqsEN = [
     id: 1,
     question: "Where will the Chinese medicine event in Krakow take place?",
     answer:
-      "The event will take place at Galaxy Hotel, Gęsia 22A 31-535 Krakow",
+      "The event will take place at Qubus Hotel Kraków, ul. Nadwiślańska 6, Podgórze, 30-527 Kraków, Polska",
   },
   {
     id: 2,
     question: "When will this event take place?",
     answer:
-      "The event will take place on October 13-15, 2023. You can find the detailed schedule of the event on our website.",
+      "The event will take place on October 10-12, 2025. You can find the detailed schedule of the event on our" +
+      " website.",
   },
   {
     id: 3,
@@ -67,7 +68,6 @@ const faqsEN = [
     answer:
       "Yes, during the event all English-language lectures will be translated into Polish",
   },
-  // More questions...
 ];
 
 export default function Faqs() {
