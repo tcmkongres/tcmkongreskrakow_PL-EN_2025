@@ -17,10 +17,10 @@ const ticketPL = [
     description: "Bilet wstepu na dodatkowe wykłady",
     features: [
       "Możliwość uczestnictwa w bankiecie",
-      "Bilet na wyklad: Joanna Brejecka- Pamungkas\n" +
-        "Przewlekłe infekcje oddechowe u dzieci - wzorce patologii, fitoterapia zachodnia wg tcm, tuina pediatryczna. ",
-      "Bilet na wykład: Bożena Olszowska\n" +
-        "Chińska sztuka czytania z twarzy - przejrzeć wszystko na wylot.",
+      // "Bilet na wyklad: Joanna Brejecka- Pamungkas\n" +
+      //   "Przewlekłe infekcje oddechowe u dzieci - wzorce patologii, fitoterapia zachodnia wg tcm, tuina pediatryczna. ",
+      // "Bilet na wykład: Bożena Olszowska\n" +
+      //   "Chińska sztuka czytania z twarzy - przejrzeć wszystko na wylot.",
     ],
   },
   {
@@ -47,10 +47,10 @@ const ticketEN = [
     description: "Entrance ticket for additional lectures",
     features: [
       "Opportunity to participate in the banquet",
-      "Ticket for the lecture: Joanna Brejecka- Pamungkas\n" +
-        "Chronic respiratory infections in children - patterns of pathology, Western herbal therapy according to TCM, pediatric tuina.",
-      "Ticket for the lecture: Bożena Olszowska\n" +
-        "Chinese art of face reading - to see through everything.",
+      // "Ticket for the lecture: Joanna Brejecka- Pamungkas\n" +
+      //   "Chronic respiratory infections in children - patterns of pathology, Western herbal therapy according to TCM, pediatric tuina.",
+      // "Ticket for the lecture: Bożena Olszowska\n" +
+      //   "Chinese art of face reading - to see through everything.",
     ],
   },
   {
@@ -81,9 +81,10 @@ export default function Shopping() {
           </p>
         </div>
         <div className="relative mt-6">
-          <p className="mx-auto max-w-2xl text-lg leading-8 text-white/60">
-            {t("opis_Koszyk")}
-          </p>
+          {/* todo: tutaj jest opis jakis ale on jest zgodny z tym co powinno sie tutaj znalezc*/}
+          {/*<p className="mx-auto max-w-2xl text-lg leading-8 text-white/60">*/}
+          {/*  {t("opis_Koszyk")}*/}
+          {/*</p>*/}
           <svg
             viewBox="0 0 1208 1024"
             className="absolute -top-10 left-1/2 -z-10 h-[64rem] -translate-x-1/2 [mask-image:radial-gradient(closest-side,white,transparent)] sm:-top-12 md:-top-20 lg:-top-12 xl:top-0"
