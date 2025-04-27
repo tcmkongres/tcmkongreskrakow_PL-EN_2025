@@ -18,7 +18,7 @@ export default function Page() {
         <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
           Polityka Prywatności określa zasady przetwarzania i ochrony danych
           osobowych, przekazywanych przez Użytkowników serwisu internetowego TCM
-          KONGRES KRAKÓW 2023, dalej „Serwis” lub „Serwis internetowy”.
+          KONGRES KRAKÓW 2025, dalej „Serwis” lub „Serwis internetowy”.
         </h1>
 
         <div className="mt-10">
@@ -427,7 +427,7 @@ export default function Page() {
         </p>
         <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
           Privacy Policy defines the rules for processing and protecting
-          personal data provided by Users of the TCM KONGRES KRAKÓW 2023
+          personal data provided by Users of the TCM KONGRES KRAKÓW 2025
           website, hereinafter referred to as the &quot;Service&quot; or
           &quot;Website.&quot;
         </h1>
