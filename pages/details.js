@@ -1,12 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import Olszowska from "@/public/images/Olszowska.jpeg";
-import Lapa from "@/public/images/Lapa.png";
-import Maimon from "@/public/images/Maimon.png";
-import Ayal from "@/public/images/Ayal.png";
 import Teixeira from "@/public/images/Teixeira.png";
-import Jie from "@/public/images/Jie.png";
 import Montakab from "@/public/images/Montakab.jpeg";
 import Baik from "@/public/images/Baik.png";
 import { useTranslation } from "next-i18next";
