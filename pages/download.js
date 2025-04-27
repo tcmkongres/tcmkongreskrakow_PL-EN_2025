@@ -1,5 +1,6 @@
 "use client";
 
+import { PaperClipIcon } from "@heroicons/react/20/solid";
 import Script from "next/script";
 import { useTranslation } from "next-i18next";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
