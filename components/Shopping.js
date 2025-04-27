@@ -1,12 +1,18 @@
 import { CheckIcon } from "@heroicons/react/20/solid";
 import { useTranslation } from "next-i18next";
 import { useRouter } from "next/router";
+import {
+  buyTicket,
+  buyTicketBankiet,
+  buyTicketBankietEN,
+  buyTicketEN,
+} from "@/components/utils/helpers";
 
 const ticketPL = [
   {
     name: "Bilety spacjalne",
     id: "Bankiet",
-    href: "https://app.easycart.pl/checkout/88568273/bankiet-tcm2023",
+    href: buyTicketBankiet,
     priceMonthly: "od 260 PLN",
     description: "Bilet wstepu na dodatkowe wykłady",
     features: [
@@ -20,7 +26,7 @@ const ticketPL = [
   {
     name: "Bilety na kongres",
     id: "Bilet",
-    href: "https://app.easycart.pl/checkout/88568273/tcm-kongres-2023-ticket?promo=1",
+    href: buyTicket,
     priceMonthly: "od 900 PLN",
     description: "Bilet wstępu na wykłady.",
     features: [
@@ -36,7 +42,7 @@ const ticketEN = [
   {
     name: "Special Tickets",
     id: "Banquet",
-    href: "https://app.easycart.pl/checkout/88568273/bankiet-tcm2023",
+    href: buyTicketBankietEN,
     priceMonthly: "from 260 PLN",
     description: "Entrance ticket for additional lectures",
     features: [
@@ -50,7 +56,7 @@ const ticketEN = [
   {
     name: "Congress Tickets",
     id: "Ticket",
-    href: "https://app.easycart.pl/checkout/88568273/tcm-kongres-2023-ticket?promo=1",
+    href: buyTicketEN,
     priceMonthly: "from 900 PLN",
     description: "Entrance ticket for lectures.",
     features: [

@@ -5,15 +5,13 @@ import LanguageSwitcher from "@/components/LanguageSwitcher";
 import { useTranslation } from "next-i18next";
 import { useRouter } from "next/router";
 import Link from "next/link";
+import { buyTicket, buyTicketEN } from "@/components/utils/helpers";
 
 export default function Header() {
   const { t } = useTranslation("header");
   const router = useRouter();
 
-  const ticketUrl =
-    router.locale === "pl"
-      ? "https://app.easycart.pl/checkout/88568273/tcm-kongres-2023-ticket?promo=1"
-      : "https://cart.easy.tools/checkout/88568273/tcm-kongres-2023-ticket?promo=1";
+  const ticketUrl = router.locale === "pl" ? buyTicket : buyTicketEN;
 
   return (
     <div className="bg-white">
