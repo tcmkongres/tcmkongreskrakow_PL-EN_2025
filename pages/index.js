@@ -13,6 +13,7 @@ import Timeline from "@/components/Timeline";
 import Sponsors from "@/components/Sponsors";
 import Modal from "@/components/Modal";
 import Exhibitors from "@/components/Exhibitors";
+import LanguageSwitcher from "@/components/LanguageSwitcher";
 
 export default function Home() {
   return (
@@ -20,7 +21,6 @@ export default function Home() {
       <div className="bg-white">
         <Header></Header>
         <main>
-          {/*<Modal></Modal>*/}
           <About></About>
           <Speakers></Speakers>
           <Schedule></Schedule>
@@ -29,7 +29,7 @@ export default function Home() {
           <Shopping></Shopping>
           <Faqs></Faqs>
           <Organizers></Organizers>
-          <Sponsors></Sponsors>
+          {/*<Sponsors></Sponsors>*/}
           <Exhibitors></Exhibitors>
           <Contact></Contact>
         </main>
