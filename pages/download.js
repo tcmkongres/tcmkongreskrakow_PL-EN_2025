@@ -16,14 +16,14 @@ const Downloa = () => {
         src="https://app.easycart.pl/login.js?type=block&id=prod_SD2mldVQXiaiXV"
       />
       {/* Automatyczne przekierowanie jeśli blok nie załadował */}
-      <Script
-        id="easycart-redirect-prod_SD2mldVQXiaiXV"
-        dangerouslySetInnerHTML={{
-          __html: `
-            !window._EC_HASH_6c7efbeece208f974613abda6d160721 && (location.href = "https://app.easycart.pl/r/prod_SD2mldVQXiaiXV");
-          `,
-        }}
-      />
+      {/*<Script*/}
+      {/*  id="easycart-redirect-prod_SD2mldVQXiaiXV"*/}
+      {/*  dangerouslySetInnerHTML={{*/}
+      {/*    __html: `*/}
+      {/*      !window._EC_HASH_6c7efbeece208f974613abda6d160721 && (location.href = "https://app.easycart.pl/r/prod_SD2mldVQXiaiXV");*/}
+      {/*    `,*/}
+      {/*  }}*/}
+      {/*/>*/}
       {/* Fallback w przypadku wyłączonego JS */}
       <noscript>
         <meta
@@ -31,7 +31,6 @@ const Downloa = () => {
           content="0;url=https://app.easycart.pl/r/prod_SD2mldVQXiaiXV"
         />
       </noscript>
-
       {/* Twoja reszta strony */}
       <div className="bg-white px-6 py-32 lg:px-8">
         <div className="mx-auto max-w-3xl min-h-full text-base leading-7 text-gray-700">
