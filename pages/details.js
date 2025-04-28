@@ -508,24 +508,34 @@ function Example() {
   const comments = router.locale === "pl" ? commentsPL : commentsEN;
 
   return (
-    <ul role="list" className="divide-y divide-gray-100">
+    // Możesz usunąć "divide-y divide-gray-200", jeśli nie chcesz linii pomiędzy elementami
+    <ul role="list" className="mx-auto max-w-3xl divide-y divide-gray-200">
       {comments.map((comment) => (
-        <li key={comment.id} className="flex gap-x-4 py-5">
-          <Image
-            className="h-16 w-16 flex-none rounded-full  object-cover bg-gray-50"
-            src={comment.imageUrl}
-            alt=""
-          />
+        <li key={comment.id} className="flex items-start gap-6 py-8">
+          {/* Kontener na obrazek – w prosty sposób: 128x128 px albo  w-32 h-32 */}
+          <div className="flex-shrink-0">
+            <Image
+              src={comment.imageUrl}
+              alt={comment.name}
+              width={128}
+              height={128}
+              className="w-32 h-32 object-cover rounded-lg"
+            />
+          </div>
+
+          {/* Sekcja tekstowa */}
           <div className="flex-auto">
-            <div className="flex items-baseline justify-between gap-x-4">
-              <p className="text-sm font-semibold leading-6 text-gray-900">
+            <div className="flex items-baseline justify-between">
+              <p className="text-lg font-semibold leading-7 text-gray-900">
                 {comment.name}
               </p>
-              <p className="flex-none text-xs text-gray-600">
+              <p className="text-xs text-gray-600">
                 <time dateTime={comment.dateTime}>{comment.date}</time>
               </p>
             </div>
-            <p className="mt-1 text leading-6 text-gray-900">{comment.title}</p>
+            <p className="mt-2 text-base font-medium leading-7 text-gray-900">
+              {comment.title}
+            </p>
             <p className="mt-1 text-sm leading-6 text-gray-600">
               {comment.description}
             </p>
@@ -538,30 +548,31 @@ function Example() {
 
 const Details = () => {
   const { t } = useTranslation("common");
+
   return (
     <>
       <div className="bg-white px-6 py-32 lg:px-8">
-        <div className="mx-auto  max-w-3xl min-h-full text-base leading-7 text-gray-700">
+        <div className="mx-auto max-w-4xl min-h-full text-lg leading-8 text-gray-700">
           <div data-free="true" className="px-4 sm:px-0">
-            <p
-              // data-free="true"
-              className="text-base font-semibold leading-7 mb-4 text-indigo-600"
-            >
+            <p className="text-base font-semibold leading-7 mb-4 text-indigo-600">
               <Link
                 href="/"
-                className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm
+                           hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2
+                           focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >
                 {t("back")}
               </Link>
             </p>
-            <h2 className="text-base font-semibold leading-7 text-gray-900">
+            <h2 className="text-2xl font-bold leading-8 text-gray-900">
               Tematy na Kongresie
             </h2>
-            <p className="mt-1 max-w-2xl text-sm leading-6 text-gray-500">
+            <p className="mt-2 max-w-2xl text-lg leading-8 text-gray-600">
               Szczegółowy opis tematów, jakie będą poruszane podczas kongresu.
             </p>
           </div>
-          <div className="mt-6 border-t border-gray-100">
+
+          <div className="mt-8 border-t border-gray-100 pt-8">
             <Example />
           </div>
         </div>
@@ -569,11 +580,11 @@ const Details = () => {
     </>
   );
 };
+
 export async function getStaticProps({ locale }) {
   return {
     props: {
       ...(await serverSideTranslations(locale, ["common"])),
-      // Will be passed to the page component as props
     },
   };
 }
