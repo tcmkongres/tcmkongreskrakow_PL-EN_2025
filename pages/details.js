@@ -11,6 +11,7 @@ import Link from "next/link";
 import Fraussen from "@/public/images/Fraussen.png";
 import Chmielnicki from "@/public/images/Chmielnicki.png";
 import Mietka from "@/public/images/Mietka.png";
+import Heland from "@/public/images/Heland.png";
 //////////////////////////////////////////////
 // WERSJA POLSKA
 //////////////////////////////////////////////
@@ -32,6 +33,20 @@ const commentsPL = [
     date: "Piątek 10.10.2025, 15.00-18.00",
     title: "Od poczęcia do narodzin",
     description: "brak opisu",
+  },
+  {
+    id: 14,
+    name: "ELŻBIETA HELAND",
+    imageUrl: null,
+    date: "Piątek 10.10.2025, 15.00-18.00",
+    title:
+      "Pięć Duchów jako manifestacja jednego Źródła - Shen na podstawie tekstów źródłowych klasycznej medycyny chińskiej",
+    description: `„Niebiosa manifestują się jako 德 dé we mnie. Ziemia manifestuje się jako 氣 qì we mnie.”
+
+Ten cytat pochodzi z rozdziału 8 Ling Shu zatytułowanego „Duch jako Źródło” (本神 běn shén). 德 dé oznacza wewnętrzną, wrodzoną moc, cnotę, natomiast 氣 qì to życiodajny oddech, siła życiowa. Cytat ten stanowi kwintesencję źródła życia. W dalszej części tego tekstu wyjaśnione są pojęcia Pięciu Duchów — 神 shén, 魄 pò, 魂 hún, 意 yì, oraz 志 zhì. Przyjrzymy się etiologii tych chińskich znaków oraz ich manifestacji w życiu człowieka — temu, jak wpływają na emocje, fizjologię i patologię.
+
+Druga część wykładu będzie poświęcona praktycznemu zastosowaniu tej teorii – temu jak smaki terapeutyczne korespondują z częstotliwością Pięciu Przemian (五行 wǔ xíng) i jak przekłada się to na zioła i receptury ziołowe wpływające na emocje. Odpowiemy na pytanie, dlaczego z każdą z przemian związane są przynajmniej trzy smaki a nie jeden. Sięgniemy przy tym do fragmentów takich dzieł jak Ling Shu, Su Wen, Nan Jing, Shang Han Za Bing Lun oraz Fu Xing Jue.
+`,
   },
 
   // 2) Sobota 11.10.2025, godz. 10.00-13.00 / 15.00-18.00
@@ -185,6 +200,21 @@ const commentsEN = [
     description: "no description",
   },
 
+  {
+    id: 14,
+    name: "ELŻBIETA HELAND",
+    imageUrl: Heland,
+    date: "Friday 10.10.2025, 15:00-18:00",
+    title:
+      "The Five Spirits as a Manifestation of One Source - Shen based on the Source Texts of Classical Chinese Medicine",
+    description: `“Heaven manifests as 德 dé within me. Earth manifests as 氣 qì within me.”
+
+This quote comes from Chapter 8 of the Ling Shu, titled “Spirit as the Root” (本神 běn shén). 德 dé refers to an inner, innate virtue or power, while 氣 qì is the vital breath, the life force. This passage encapsulates the essence of life’s origin. Later in the text, the concepts of the Five Spirits—神 shén, 魄 pò, 魂 hún, 意 yì, and 志 zhì—are explained. We will examine the meaning of these Chinese characters and their manifestations in human life—how they influence emotions, physiology, and pathology.
+
+The second part of the lecture will focus on the practical application of this theory—how therapeutic flavors correspond with the frequency of the Five Phases (五行 wǔ xíng) and how this translates into herbs and herbal formulas that affect emotions. We will answer why each phase is associated with at least three flavors rather than just one. In doing so, we will reference passages from works such as the Ling Shu, Su Wen, Nan Jing, Shang Han Za Bing Lun, and Fu Xing Jue.
+`,
+  },
+
   // 2) Saturday 11.10.2025, 10.00-13.00 / 15.00-18.00
   {
     id: 3,
@@ -236,7 +266,7 @@ This approach allows us not only to recognize trauma but also to process and tra
     id: 6,
     name: "GIULIA BOSCHI",
     imageUrl: null,
-    date: "no date",
+    date: null,
     title:
       "Beyond the seven qing: the language of emotions in Classical Chinese Medicine",
     description: "no description",
@@ -245,7 +275,7 @@ This approach allows us not only to recognize trauma but also to process and tra
     id: 7,
     name: "JONG BAIK",
     imageUrl: Baik,
-    date: "no date",
+    date: null,
     title:
       "The Three Treasures: An Explanation of the Interrelationship between Jing, Qi and Shen",
     description: `The Three Treasures:
@@ -262,7 +292,7 @@ This presentation will first focus on the individual characteristics of Jing, Qi
     id: 8,
     name: "JONG BAIK",
     imageUrl: Baik,
-    date: "no date",
+    date: null,
     title: "A Multi-Microsystems Approach to Pain and Pain Management",
     description: `Microsystems are specialized acupuncture systems that focus on stimulating specific points in particular areas of the human body to prevent and treat diseases. Microsystems are easy to learn, cost-effective, safe, and practical. They have broad applications and are widely used in diagnosis, therapy, pain management, and preventive medicine.
   
@@ -273,7 +303,7 @@ This presentation will be given from the perspective of Traditional East Asian M
     id: 9,
     name: "BARTOSZ CHMIELNICKI",
     imageUrl: Chmielnicki,
-    date: "no date",
+    date: null,
     title: "Blood and Breath: The Origins of Acupuncture",
     description: "no description",
   },
@@ -281,7 +311,7 @@ This presentation will be given from the perspective of Traditional East Asian M
     id: 10,
     name: "YAIR MAIMON / IZABELA MIĘTKA",
     imageUrl: Mietka,
-    date: "no date",
+    date: null,
     title: "Acupuncture Treatment of menopause Haven, Earth perspective",
     description: "no description",
   },
@@ -289,7 +319,7 @@ This presentation will be given from the perspective of Traditional East Asian M
     id: 11,
     name: "RICARDO TEIXEIRA",
     imageUrl: Teixeira,
-    date: "no date",
+    date: null,
     title:
       "Workshop: Acupuncture Techniques - Adding effective tools to your Clinical Toolkit",
     description: "no description",
@@ -298,7 +328,7 @@ This presentation will be given from the perspective of Traditional East Asian M
     id: 12,
     name: "MAZIN AL-KHAFAJI",
     imageUrl: null,
-    date: "no date",
+    date: null,
     title: "Treating Atopic Dermatitis in Infants",
     description: "no description",
   },
@@ -308,7 +338,7 @@ This presentation will be given from the perspective of Traditional East Asian M
     id: 13,
     name: "GIULIA BOSCHI",
     imageUrl: null,
-    date: "no date",
+    date: null,
     title:
       "The Five Spirits as a Manifestation of One Source - Shen based on the Source Texts of Classical Chinese Medicine",
     description: `“Heaven manifests as 德 dé within me. Earth manifests as 氣 qì within me.”
