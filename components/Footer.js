@@ -47,8 +47,10 @@ const navigation = {
 
 export default function Footer() {
   const router = useRouter();
-
   const { t } = useTranslation("common");
+
+  const currentYear = new Date().getFullYear();
+
   return (
     <footer className="bg-gray-900" aria-labelledby="footer-heading">
       <div className="mx-auto max-w-7xl overflow-hidden px-6 py-20 sm:py-24 lg:px-8">
@@ -67,8 +69,6 @@ export default function Footer() {
             </div>
           ))}
           <div className="pb-6 text-center">
-            {/*todo: co to jest ??*/}
-            {/*<a href="/download">*/}
             <a
               className="text-2xl leading-6 text-gray-600 hover:text-gray-900"
               target="_blank"
@@ -78,7 +78,6 @@ export default function Footer() {
             >
               {t("tytul_Koszyk2")}
             </a>
-            {/*</a>*/}
           </div>
         </nav>
 
@@ -98,13 +97,13 @@ export default function Footer() {
         </div>
         <p className="mt-10 text-center text-xs leading-5 text-gray-500"></p>
         <p className="mt-10 text-center text-xs leading-5 text-gray-500">
-          &copy; 2023-2505. All rights reserved. Made with ❤️ by{" "}
+          &copy; 2023-{currentYear}. All rights reserved. Made with ❤️ by{" "}
           <a
-            href={"https://www.linkedin.com/in/aleksanderjedynak/"}
+            href="https://www.linkedin.com/in/aleksanderjedynak/"
             target="_blank"
             rel="noreferrer"
           >
-            {"AleksanderOne"}
+            AleksanderOne
           </a>
         </p>
       </div>
