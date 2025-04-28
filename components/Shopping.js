@@ -10,7 +10,7 @@ import {
 
 const ticketPL = [
   {
-    name: "Bilety spacjalne",
+    name: "Bankiet",
     id: "Bankiet",
     href: buyTicketBankiet,
     priceMonthly: "od 260 PLN",
@@ -40,7 +40,7 @@ const ticketPL = [
 
 const ticketEN = [
   {
-    name: "Special Tickets",
+    name: "Banquet",
     id: "Banquet",
     href: buyTicketBankietEN,
     priceMonthly: "from 260 PLN",
