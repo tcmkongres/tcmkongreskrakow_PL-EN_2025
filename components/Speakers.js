@@ -8,6 +8,7 @@ import Mietka from "@/public/images/Mietka.png";
 import Wojniusz from "@/public/images/Wojniusz.jpg";
 import Fraussen from "@/public/images/Fraussen.png";
 import Olszowska from "@/public/images/Olszowska.jpeg";
+import Heland from "@/public/images/Heland.png";
 import { useTranslation } from "next-i18next";
 import { useRouter } from "next/router";
 
@@ -56,6 +57,11 @@ const people = [
     name: "Bożena Olszowska",
     imageUrl: Olszowska,
     url: "/olszowska",
+  },
+  {
+    name: "Elżbieta Heland",
+    imageUrl: Heland,
+    url: "/heland",
   },
 ];
 
