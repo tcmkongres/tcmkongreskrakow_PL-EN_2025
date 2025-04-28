@@ -12,6 +12,8 @@ import Fraussen from "@/public/images/Fraussen.png";
 import Chmielnicki from "@/public/images/Chmielnicki.png";
 import Mietka from "@/public/images/Mietka.png";
 import Heland from "@/public/images/Heland.png";
+import Giulia from "@/public/images/Giulia.png";
+
 //////////////////////////////////////////////
 // WERSJA POLSKA
 //////////////////////////////////////////////
@@ -31,13 +33,25 @@ const commentsPL = [
     name: "HAMID MONTAKAB",
     imageUrl: Montakab,
     date: "Piątek 10.10.2025, 15.00-18.00",
-    title: "Od poczęcia do narodzin",
-    description: "brak opisu",
+    title:
+      "Od poczęcia do narodzin. Akupunktura wspierająca podczas ciąży i porodu",
+    description:
+      "Wielu akupunkturzystów waha się przed nakłuwaniem pacjentek w okresie ciąży. Klasyczna medycyna chińska dała nam instrukcje, jak śledzić i wspomagać normalną ciążę, a także protokoły leczenia patologii, które mogą pojawić się w tym czasie.\n" +
+      " \n" +
+      "Ten wykład obejmuje energetykę związaną z poczęciem, 10 miesięcy księżycowych ciąży, wraz z zaleceniami dotyczącymi stylu życia, diety i akupunktury.\n" +
+      " \n" +
+      "Treść:\n" +
+      "- Co robić, a czego nie robić w czasie ciąży. Techniki akupunktury i punkty, których należy unikać\n" +
+      "- Zrozumienie energetyki związanej z ciążą \n" +
+      "- Przebieg ciąży z miesiąca na miesiąc\n" +
+      "- Trzy najważniejsze etapy\n" +
+      "- Przygotowanie do porodu\n" +
+      "- Wspomaganie porodu za pomocą akupunktury",
   },
   {
     id: 14,
     name: "ELŻBIETA HELAND",
-    imageUrl: null,
+    imageUrl: Heland,
     date: "Piątek 10.10.2025, 15.00-18.00",
     title:
       "Pięć Duchów jako manifestacja jednego Źródła - Shen na podstawie tekstów źródłowych klasycznej medycyny chińskiej",
@@ -56,7 +70,15 @@ Druga część wykładu będzie poświęcona praktycznemu zastosowaniu tej teori
     imageUrl: Montakab,
     date: "Sobota 11.10.2025, 10.00-13.00 / 15.00-18.00",
     title: "8 Kanałów Cudownych oraz profile psychologiczne",
-    description: "brak opisu",
+    description:
+      "Kanały cudowne wspierają rozwój Jing (Esencji) od pierwszego momentu poczęcia i koordynują różne etapy życia i transformacje zgodnie ze zdeponowanym „Ming” (Mandatem Życia). W ten sposób odgrywają kluczową rolę w psycho-duchowej ewolucji człowieka, a także w jego rozwoju fizycznym..\n" +
+      "\n" +
+      "Treść:\n" +
+      "1. Rola Naczyń Nadzwyczajnych w fizycznym, emocjonalnym i psychiczno-duchowym rozwoju człowieka.\n" +
+      "2. objawy, profile psychologiczne i strategie terapeutyczne .\n" +
+      "3. Rozwój Jing; proces starzenia się .\n" +
+      "4. Zastosowania kliniczne\n" +
+      "5. Studia przypadków",
   },
 
   // 3) Niedziela 12.10.2025
@@ -88,17 +110,33 @@ To podejście pozwala nam nie tylko rozpoznać traumę, ale także ją przetworz
     date: "Niedziela 12.10.2025, 13.30-16.30",
     title:
       "Weiqi (Qi obronne) i Wei-Qi (poziomy): Integracja Shang Han Lun i Wen Bing",
-    description: "brak opisu",
+    description:
+      "Wei Qi krąży poza naczyniami krwionośnymi, podczas gdy Ying Qi przepływa w ich obrębie. Wei Qi pełni rolę pierwszej linii obrony organizmu przed zewnętrznymi patogenami, porównywalnie do układu odpornościowego, i jest ściśle związane z układem nerwowym, regulując temperaturę, pocenie się i rytmy okołodobowe. Z kolei Ying Qi odżywia ciało poprzez krew i inne substancje Yin.\n" +
+      "\n" +
+      "Treść wykładu:\n" +
+      "\n" +
+      "Głęboka analiza Wei Qi: spostrzeżenia na podstawie klasycznych tekstów i teorii meridianów\n" +
+      "Podejście w ziołolecznictwie: Ma Huang Tang i jego modyfikacje\n" +
+      "Strategie akupunktury i moksoterapii\n" +
+      "Wei Qi a współczesna odporność: zastosowania w zapobieganiu COVID-19 i leczeniu jego następstw\n" +
+      "Wei Qi a zaburzenia układu nerwowego: powiązania z chorobami psychicznymi\n" +
+      "Co wyniesiesz z wykładu?\n" +
+      "\n" +
+      "Zrozumienie Wei Qi z perspektywy klasycznej i współczesnej\n" +
+      "Praktyczne leczenie akupunkturą i medycyną ziołową w przypadku zaburzeń układu odpornościowego i nerwowego\n" +
+      "Pożyteczność integracji teorii Shang Han Lun i Wen Bing w praktyce klinicznej",
   },
 
   // --- Bez daty (lub nieustalone) ---
   {
     id: 6,
     name: "GIULIA BOSCHI",
-    imageUrl: null,
+    imageUrl: Giulia,
     date: null,
     title: "Poza siedmioma qing: język emocji w klasycznej medycynie chińskiej",
-    description: "brak opisu",
+    description:
+      "Tradycyjna medycyna chińska (TCM) studiowana obecnie na uniwersytetach to ustandaryzowane podejście, które kategoryzuje różne aspekty emocjonalne w ustalone klasyfikacje: siedem emocji (qī qíng七情), pięć skłonności lub dyspozycji (wǔ zhì 五志) oraz pięć dusz lub duchów (wǔ shén 五神). Każdy aspekt jest wyraźnie powiązany ze sferą funkcjonalną pojedynczego organu. W przeciwieństwie do tego, Klasyczna Medycyna Chińska (CCM), zwłaszcza opisana w Wewnętrznym Kanonie Żółtego Cesarza, zapewnia znacznie bardziej zniuansowaną i mniej sztywną perspektywę. Uznaje zarówno czynniki egzystencjalne, jak i nieświadome, rozróżnia różne wyrażenia tej samej fundamentalnej emocji - z których każda ma unikalny wpływ na ciało - i uznaje, że określone uczucie może wpływać na różne narządy.\n" +
+      "W tym kursie będziemy pracować nad odzyskaniem jasnego zrozumienia klasycznej terminologii związanej z emocjami. Pomoże nam to zagłębić się w złożoność ludzkiej duszy i lepiej zająć się egzystencjalnymi realiami tych, którzy szukają naszej pomocy.",
   },
   {
     id: 7,
@@ -144,7 +182,17 @@ Ta prezentacja zostanie przedstawiona z perspektywy Tradycyjnej Medycyny Wschodn
     imageUrl: Mietka,
     date: null,
     title: "Akupunktura w leczeniu menopauzy – perspektywa Nieba i Ziemi",
-    description: "brak opisu",
+    description:
+      "Niebo - transformacja Shen, \n" +
+      "Ziemia - wspieranie Jing i kanały cudowne \n" +
+      "\n" +
+      "Menopauza to czas transformacji dla kobiety. Ta naturalna zmiana może być wspierana na wiele sposobów. W medycynie chińskiej jest ona przede wszystkim związana ze zmianami w Niebie (Shen) i na Ziemi (Jing i Chong).\n" +
+      "\n" +
+      "Z perspektywy Nieba zmiana ta obejmuje związek między Shen i Jing, reprezentując głęboką transformację i inspirację. Patologie na tym poziomie mogą objawiać się lękiem, depresją, frustracją i bezsennością. Leczenie koncentruje się na transformacji przy użyciu punktów Shen i Jing.\n" +
+      "\n" +
+      "Z ziemskiej perspektywy zmiany w Jing i Chong mogą powodować objawy takie jak suchość, uderzenia gorąca, nocne poty i spowolniony metabolizm. W przypadku leczenia antyestrogenowego nowotworów hormonododatnich mogą wystąpić dodatkowe objawy, takie jak bóle stawów i bardziej intensywne uderzenia gorąca. Liczne badania wykazały, że akupunktura jest wysoce skuteczna w leczeniu tych objawów. Podczas wykładu omówione zostaną wyniki badań  oraz  stosowane punkty akupunkturowe.\n" +
+      "\n" +
+      "Wykład ten podkreśli niebiańskie i ziemskie perspektywy, oferując praktyczną strategię leczenia i wybór punktów.",
   },
   {
     id: 11,
@@ -168,7 +216,7 @@ Ta prezentacja zostanie przedstawiona z perspektywy Tradycyjnej Medycyny Wschodn
   {
     id: 13,
     name: "GIULIA BOSCHI",
-    imageUrl: null,
+    imageUrl: Giulia,
     date: null,
     title:
       "Pięć Duchów jako manifestacja jednego Źródła - Shen na podstawie tekstów źródłowych klasycznej medycyny chińskiej",
@@ -200,7 +248,34 @@ const commentsEN = [
     imageUrl: Montakab,
     date: "Friday 10.10.2025, 15:00-18:00",
     title: "From Conception to Birth",
-    description: "no description",
+    description:
+      "Acupuncture support during pregnancy and birth\n" +
+      "\n" +
+      " \n" +
+      "\n" +
+      "Many acupuncturists feel hesitant about needling patients during the gestational period. Classical Chinese medicine has given us instructions as how to follow and assist a normal pregnancy, as well as treatment protocols for pathologies that may arise during this time.\n" +
+      "\n" +
+      " \n" +
+      "\n" +
+      "This lecture covers the energetics involved in conception, the 10 lunar months of pregnancy, with life-style, dietary and acupuncture recommendations.\n" +
+      "\n" +
+      " \n" +
+      "\n" +
+      "Contents:\n" +
+      "\n" +
+      "-       Do’s and don'ts during pregnancy. Acupuncture techniques and points to avoid\n" +
+      "\n" +
+      "-       Understanding the energetics involved in pregnancy \n" +
+      "\n" +
+      "-       Following a normal pregnancy month-to-month\n" +
+      "\n" +
+      "-       The three most important stages\n" +
+      "\n" +
+      "-       Preparation for birth\n" +
+      "\n" +
+      "-       Assisting birth with acupuncture\n" +
+      "\n" +
+      "-       Treatment of possible complications",
   },
 
   {
@@ -225,7 +300,17 @@ The second part of the lecture will focus on the practical application of this t
     imageUrl: Montakab,
     date: "Saturday 11.10.2025, 10:00-13:00 / 15:00-18:00",
     title: "The 8 Extraordinary Vessels and psychological profiles",
-    description: "no description",
+    description:
+      "The 8 Extraordinary Vessels and Psychological profiles\t\n" +
+      "\n" +
+      'The Extraordinary Vessels carry out the unfolding of Jing (Essence) from the first moment of conception, and coordinate the various life stages and transformations according to the deposited "Ming" (Life Mandate). In this manner the Extraordinary Vessels play a crucial role in the psycho-spiritual evolution of the individual, as well as in their physical conditions.\n' +
+      "\n" +
+      "Content:\n" +
+      "1. Role of the Extraordinary in the Physical, Emotional and Psycho-spiritual development of the individual. \n" +
+      "2. Pathways, symptoms, psychological profiles and therapeutic strategies\n" +
+      "3. The unfolding of Jing; the aging process\n" +
+      "4. Clinical applications\n" +
+      "5. Case studies",
   },
 
   // 3) Sunday 12.10.2025
@@ -261,18 +346,41 @@ This approach allows us not only to recognize trauma but also to process and tra
     date: "Sunday 12.10.2025, 13:30-16:30",
     title:
       "Weiqi (Defensive Qi) and Wei-Qi (Levels): Integrating Shang Han Lun and Wen Bing",
-    description: "no description",
+    description:
+      "Abstract\n" +
+      "Wei Qi circulates outside the blood vessels, while Ying Qi flows within. Wei Qi serves as the body's first defense against external pathogens, akin to the immune system, and is closely related to the nervous system, regulating temperature, sweating, and circadian rhythms. Ying Qi, on the other hand, nourishes the body as blood and other Yin substances.\n" +
+      "\n" +
+      "Course Content\n" +
+      "Deep exploration of Wei Qi: insights from classical texts and meridian theory\n" +
+      "\n" +
+      "Herbal medicine treatments: Ma Huang Tang and its modifications\n" +
+      "\n" +
+      "Acupuncture and moxibustion strategies\n" +
+      "\n" +
+      "Wei Qi and modern immunity: applications for COVID-19 prevention and sequelae treatment\n" +
+      "\n" +
+      "Wei Qi and nervous system disorders: links to psychological diseases\n" +
+      "\n" +
+      "What Can You Learn from the Course?\n" +
+      "Understanding Wei Qi from both classical and modern perspectives\n" +
+      "\n" +
+      "Practical acupuncture and herbal medicine treatments for immune and nervous system disorders\n" +
+      "\n" +
+      "Insights into integrating Shang Han Lun and Wen Bing theories in clinical practice",
   },
 
   // --- No date assigned ---
   {
     id: 6,
     name: "GIULIA BOSCHI",
-    imageUrl: null,
+    imageUrl: Giulia,
     date: null,
     title:
       "Beyond the seven qing: the language of emotions in Classical Chinese Medicine",
-    description: "no description",
+    description:
+      " Traditional Chinese Medicine (TCM) studied in universities today is a standardized approach that categorizes various emotional aspects into fixed classifications: the seven emotions (qī qíng七情), five propensities or dispositions（wǔ zhì 五志, and five souls or spirits (wǔ shén 五神). Each aspect is linked explicitly to the functional sphere of a single organ. In contrast, Classical Chinese Medicine (CCM), especially as described in the Internal Canon of the Yellow Emperor, provides a much more nuanced and less rigid perspective. It acknowledges both existential and unconscious factors, differentiates between various expressions of the same fundamental emotion—each with its unique impact on the body—and recognizes that a particular feeling can influence different organs.\n" +
+      "\n" +
+      "In this course, we will work to reclaim a clear understanding of classic terminology related to emotions. This will help us delve into the complexity of the human soul and better address the existential realities of those who seek our help.",
   },
   {
     id: 7,
@@ -321,7 +429,26 @@ This presentation will be given from the perspective of Traditional East Asian M
     imageUrl: Mietka,
     date: null,
     title: "Acupuncture Treatment of menopause Haven, Earth perspective",
-    description: "no description",
+    description:
+      "Subtitle \n" +
+      "\n" +
+      "Heaven – Shen transformation, Earth- supporting Jing and extra meridians \n" +
+      "\n" +
+      "\n" +
+      "\n" +
+      "Menopause is a transformative time for a woman. This natural change can be supported in many ways. In Chinese medicine, it is primarily related to changes in Heaven (Shen) and Earth (Jing and Chong).\n" +
+      "\n" +
+      "\n" +
+      "\n" +
+      "From a Heavenly perspective, this change involves the relationship between the Shen and Jing, representing a deep transformation and inspiration. Pathologies at this level may manifest as anxiety, depression, frustration, and insomnia. Treatment focuses on transformation using Shen and Jing points.\n" +
+      "\n" +
+      "\n" +
+      "\n" +
+      "From an Earthly perspective, the changes in Jing and Chong can cause symptoms such as dryness, hot flashes, night sweats, and slowed metabolism. In cases of anti-estrogen treatments for hormone-positive cancers, additional symptoms like joint pain and more intense hot flashes may occur. Numerous studies have shown that acupuncture is highly effective for managing these symptoms. The lecture will discuss the evidence and the acupuncture points used.\n" +
+      "\n" +
+      "\n" +
+      "\n" +
+      "This lecture will emphasize the Heavenly and Earthly perspectives, offering a practical treatment strategy and point selection.",
   },
   {
     id: 11,
@@ -345,7 +472,7 @@ This presentation will be given from the perspective of Traditional East Asian M
   {
     id: 13,
     name: "GIULIA BOSCHI",
-    imageUrl: null,
+    imageUrl: Giulia,
     date: null,
     title:
       "The Five Spirits as a Manifestation of One Source - Shen based on the Source Texts of Classical Chinese Medicine",

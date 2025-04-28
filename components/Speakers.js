@@ -9,6 +9,7 @@ import Wojniusz from "@/public/images/Wojniusz.jpg";
 import Fraussen from "@/public/images/Fraussen.png";
 import Olszowska from "@/public/images/Olszowska.jpeg";
 import Heland from "@/public/images/Heland.png";
+import Giulia from "@/public/images/Giulia.png";
 import { useTranslation } from "next-i18next";
 import { useRouter } from "next/router";
 
@@ -62,6 +63,21 @@ const people = [
     name: "Elżbieta Heland",
     imageUrl: Heland,
     url: "/heland",
+  },
+  // {
+  //   name: "Jeffrey Hui Zhang",
+  //   imageUrl: null,
+  //   url: "/zhang",
+  // },
+  // {
+  //   name: "Mazin Al Khafaj",
+  //   imageUrl: null,
+  //   url: "/khafaj",
+  // },
+  {
+    name: "Giulia Boschi",
+    imageUrl: Giulia,
+    url: "/giulia",
   },
 ];
 
