@@ -96,7 +96,7 @@ To podejście pozwala nam nie tylko rozpoznać traumę, ale także ją przetworz
     id: 6,
     name: "GIULIA BOSCHI",
     imageUrl: null,
-    date: "brak daty",
+    date: null,
     title: "Poza siedmioma qing: język emocji w klasycznej medycynie chińskiej",
     description: "brak opisu",
   },
@@ -104,7 +104,7 @@ To podejście pozwala nam nie tylko rozpoznać traumę, ale także ją przetworz
     id: 7,
     name: "JONG BAIK",
     imageUrl: Baik,
-    date: "brak daty",
+    date: null,
     title:
       "Trzy Skarby: Wyjaśnienie Wzajemnej Zależności między Jing, Qi i Shen",
     description: `Trzy Skarby:
@@ -121,7 +121,7 @@ Prezentacja najpierw skupi się na indywidualnych cechach Jing, Qi i Shen, nast�
     id: 8,
     name: "JONG BAIK",
     imageUrl: Baik,
-    date: "brak daty",
+    date: null,
     title: "Podejście multi-mikrosystemowe w pracy z bólem",
     description: `Mikrosystemy to specjalne systemy akupunktury, które opierają się na stymulacji określonych punktów w konkretnych obszarach ludzkiego ciała w celu zapobiegania chorobom i ich leczenia. Mikrosystemy są łatwe w nauce, ekonomiczne, bezpieczne i praktyczne. Mają szerokie zastosowanie i są powszechnie wykorzystywane w diagnostyce, terapii, pracy z bólem oraz medycynie prewencyjnej.
 Ta prezentacja zostanie przedstawiona z perspektywy Tradycyjnej Medycyny Wschodnioazjatyckiej i wyjaśni, w jaki sposób podejście wielosystemowe może poszerzyć możliwości leczenia, zwiększyć skuteczność terapii oraz stworzyć bardziej indywidualny plan leczenia dla pacjenta. Następnie zostaną wprowadzone kilka szeroko stosowanych mikrosystemów oraz przedstawione bezpieczne i skuteczne metody ich wykorzystywania w pracy z bólem. Omówione mikrosystemy to Akupunktura Dłoni, Akupunktura Ucha i Akupunktura Brzucha.
@@ -131,15 +131,18 @@ Ta prezentacja zostanie przedstawiona z perspektywy Tradycyjnej Medycyny Wschodn
     id: 9,
     name: "BARTOSZ CHMIELNICKI",
     imageUrl: Chmielnicki,
-    date: "brak daty",
+    date: null,
     title: "Krew i oddech, czyli skąd się wzięła akupunktura?",
-    description: "brak opisu",
+    description:
+      "Skąd Chińczycy znali przebiegi meridianów, lokalizację i działanie punktów? Czy Hipokrates z Kos był akupunkturzystą? Jak i kiedy zaczęła się historia akupunktury? Czy powinniśmy czuć się niegodnymi spadkobiercami taoistycznych mędrców, którzy leczyli choroby po prostu manipulując Qi?\n" +
+      "\n" +
+      "Podobne pytania często słyszę od swoich Studentów, sam zresztą zadawałem je sobie nieskończoną ilość razy. Podczas krótkiego wykładu plenarnego opowiem Wam historię początków akupunktury, pokażę proces jej rozwoju od proto-anatomicznych obserwacji i krwioupustów po wysublimowany system, który znamy z Nei Jing. Zaproszę Was na fascynującą podróż przez stulecia do niezwykłego momentu w historii, w którym jednoczące się przyszłe cesarstwo umożliwiła niezwykłą interakcję między brutalnym światem wojskowych chirurgów a kosmologicznymi ideami wczesnych taoistów. ",
   },
   {
     id: 10,
     name: "YAIR MAIMON / IZABELA MIĘTKA",
     imageUrl: Mietka,
-    date: "brak daty",
+    date: null,
     title: "Akupunktura w leczeniu menopauzy – perspektywa Nieba i Ziemi",
     description: "brak opisu",
   },
@@ -147,7 +150,7 @@ Ta prezentacja zostanie przedstawiona z perspektywy Tradycyjnej Medycyny Wschodn
     id: 11,
     name: "RICARDO TEIXEIRA",
     imageUrl: Teixeira,
-    date: "brak daty",
+    date: null,
     title:
       "Warsztat: Techniki akupunktury – dodatkowe skuteczne narzędzia do Twojej praktyki",
     description: "brak opisu",
@@ -156,7 +159,7 @@ Ta prezentacja zostanie przedstawiona z perspektywy Tradycyjnej Medycyny Wschodn
     id: 12,
     name: "MAZIN AL-KHAFAJI",
     imageUrl: null,
-    date: "brak daty",
+    date: null,
     title: "Leczenie atopowego zapalenia skóry u niemowląt",
     description: "brak opisu",
   },
@@ -166,7 +169,7 @@ Ta prezentacja zostanie przedstawiona z perspektywy Tradycyjnej Medycyny Wschodn
     id: 13,
     name: "GIULIA BOSCHI",
     imageUrl: null,
-    date: "brak daty",
+    date: null,
     title:
       "Pięć Duchów jako manifestacja jednego Źródła - Shen na podstawie tekstów źródłowych klasycznej medycyny chińskiej",
     description: `„Niebiosa manifestują się jako 德 dé we mnie. Ziemia manifestuje się jako 氣 qì we mnie.”
@@ -305,7 +308,12 @@ This presentation will be given from the perspective of Traditional East Asian M
     imageUrl: Chmielnicki,
     date: null,
     title: "Blood and Breath: The Origins of Acupuncture",
-    description: "no description",
+    description:
+      "How did the Chinese come to know the pathways of the meridians, the locations, and functions of acupuncture points? Was Hippocrates of Kos an acupuncturist? When and how did the story of acupuncture truly begin? Should we consider ourselves unworthy heirs to the Taoist sages who treated disease simply by manipulating Qi?\n" +
+      "\n" +
+      "These are questions I often hear from my students — and ones I have asked myself countless times. In this plenary lecture, I will trace the early history of acupuncture, outlining its evolution from proto-anatomical observations and bloodletting practices to the sophisticated medical system described in the Nei Jing.\n" +
+      "\n" +
+      "Join me on a journey across centuries, toward a pivotal moment in Chinese history: the unification of the empire, which enabled an extraordinary encounter between the brutal pragmatism of military surgeons and the cosmological insights of early Taoist thinkers.",
   },
   {
     id: 10,
