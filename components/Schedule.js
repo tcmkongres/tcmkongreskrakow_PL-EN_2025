@@ -66,21 +66,21 @@ const schedulePL = [
       {
         name: "Wykład 1",
         description:
-          "Hamid Montakab (Tłum. Marta Nizioł). From Conception to Birth. Od poczęcia do narodzin. Akupunktura wspierająca okres ciąży oraz porodu.",
+          "Hamid Montakab (Tłum. Marta Nizioł). Akupunktura wspierająca okres ciąży oraz porodu.",
         start: "15:00",
         end: "18:00",
       },
       {
         name: "Wykład 2",
         description:
-          "Ricardo Teixeira (Tłum. Irena Susz). Workshop: Acupuncture Techniques – Adding effective tools to your Clinical Toolkit. Warsztat: Techniki akupunktury – dodatkowe skuteczne narzędzia do Twojej praktyki.",
+          "Ricardo Teixeira (Tłum. Irena Susz). Warsztat: Techniki akupunktury – dodatkowe skuteczne narzędzia do Twojej praktyki.",
         start: "15:00",
         end: "18:00",
       },
       {
         name: "Wykład 3",
         description:
-          "Mazin Al-Khafaji (Tłum. Ania Słowik). Dermatologia w medycynie chińskiej. Dermatology in Chinese Medicine.",
+          "Mazin Al-Khafaji (Tłum. Ania Słowik). Dermatologia w medycynie chińskiej.",
         start: "15:00",
         end: "18:00",
       },
@@ -100,21 +100,21 @@ const schedulePL = [
       {
         name: "Wykład 1",
         description:
-          "Hamid Montakab (Tłum. Marta Nizioł). The 8 Extraordinary Vessels and psychological profiles. 8 Kanałów Cudownych oraz profile psychologiczne cz.1",
+          "Hamid Montakab (Tłum. Marta Nizioł). 8 Kanałów Cudownych oraz profile psychologiczne cz.1",
         start: "10:00",
         end: "13:30",
       },
       {
         name: "Wykład 2",
         description:
-          "Yair Maimon / Izabela Miętka. Acupuncture Treatment of menopause Haven, Earth perspective. Akupunktura w leczeniu menopauzy – perspektywa Nieba i Ziemi.",
+          "Yair Maimon / Izabela Miętka. Akupunktura w leczeniu menopauzy – perspektywa Nieba i Ziemi.",
         start: "10:00",
         end: "13:30",
       },
       {
         name: "Wykład 3",
         description:
-          "Mazin Al-Khafaji (Tłum. Ania Słowik). Treating Atopic Dermatitis in Infants. Leczenie atopowego zapalenia skóry u niemowląt.",
+          "Mazin Al-Khafaji (Tłum. Ania Słowik). Leczenie atopowego zapalenia skóry u niemowląt.",
         start: "10:00",
         end: "13:30",
       },
@@ -133,7 +133,7 @@ const schedulePL = [
       {
         name: "Wykład 1",
         description:
-          "Hamid Montakab (Tłum. Marta Nizioł). The 8 Extraordinary Vessels and psychological profiles part 2. 8 Kanałów Cudownych oraz profile psychologiczne cz.2",
+          "Hamid Montakab (Tłum. Marta Nizioł). 8 Kanałów Cudownych oraz profile psychologiczne cz.2",
         start: "15:00",
         end: "18:00",
       },
@@ -146,7 +146,7 @@ const schedulePL = [
       {
         name: "Wykład 3",
         description:
-          "Jong Baik (Tłum. Ania Słowik). An Explanation of the Interrelationship between Jing, Qi and Shen. Wyjaśnienie Wzajemnej Zależności między Jing, Qi i Shen.",
+          "Jong Baik (Tłum. Ania Słowik). Wyjaśnienie Wzajemnej Zależności między Jing, Qi i Shen.",
         start: "15:00",
         end: "18:00",
       },
@@ -172,21 +172,21 @@ const schedulePL = [
       {
         name: "Wykład 1",
         description:
-          "Jong Baik (Tłum. Ania Słowik). A Multi-Microsystems Approach to Pain and Pain Management. Podejście multi-mikrosystemowe w pracy z bólem.",
+          "Jong Baik (Tłum. Ania Słowik). Podejście multi-mikrosystemowe w pracy z bólem.",
         start: "9:30",
         end: "12:30",
       },
       {
         name: "Wykład 2",
         description:
-          "Giulia Boschi (Tłum. Marta Nizioł). Beyond the seven qing: the language of emotions in Classical Chinese Medicine. Poza siedmioma qing: język emocji w klasycznej medycynie chińskiej.",
+          "Giulia Boschi (Tłum. Marta Nizioł). Poza siedmioma qing: język emocji w klasycznej medycynie chińskiej.",
         start: "9:30",
         end: "12:30",
       },
       {
         name: "Wykład 3",
         description:
-          "Mieke Fraussen. Face Reading, Trauma & Healing part 1. CZYTANIE Z TWARZY, TRAUMA I UZDROWIENIE. Cz.1",
+          "Mieke Fraussen. CZYTANIE Z TWARZY, TRAUMA I UZDROWIENIE. Cz.1",
         start: "9:30",
         end: "12:30",
       },
@@ -205,21 +205,21 @@ const schedulePL = [
       {
         name: "Wykład 1",
         description:
-          "Jeffrey Hui Zhang (Tłum. Ania Słowik). Weiqi (Qi obronne) i Wei-Qi (poziomy): Integracja Shang Han Lun i Wen Bing. WeiQi (Defensive Qi) and Wei-Qi (Levels): Integrating Shang Han Lun and Wen Bing.",
+          "Jeffrey Hui Zhang (Tłum. Ania Słowik). Weiqi (Qi obronne) i Wei-Qi (poziomy): Integracja Shang Han Lun i Wen Bing.",
         start: "13:30",
         end: "16:30",
       },
       {
         name: "Wykład 2",
         description:
-          "Bartosz Chmielnicki. Krew i oddech, czyli skąd się wzięła akupunktura? Blood and Breath: The Origins of Acupuncture.",
+          "Bartosz Chmielnicki. Krew i oddech, czyli skąd się wzięła akupunktura?",
         start: "13:30",
         end: "16:30",
       },
       {
         name: "Wykład 3",
         description:
-          "Mieke Fraussen. Face Reading, Trauma & Healing. CZYTANIE Z TWARZY, TRAUMA I UZDROWIENIE. Cz.2",
+          "Mieke Fraussen. CZYTANIE Z TWARZY, TRAUMA I UZDROWIENIE. Cz.2",
         start: "13:30",
         end: "16:30",
       },
@@ -239,20 +239,19 @@ const scheduleEN = [
     timeSlots: [
       {
         name: "Welcome",
-        description:
-          "Izabela Miętka, Kasia Sieluk, Yair Maimon, Ela Heland (brak tłumaczenia)",
+        description: "Izabela Miętka, Kasia Sieluk, Yair Maimon, Ela Heland",
         start: "10:00",
         end: "10:30",
       },
       {
         name: "Lecture",
-        description: "Yair Maimon (brak tłumaczenia)",
+        description: "Yair Maimon",
         start: "10:30",
         end: "11:00",
       },
       {
         name: "Lecture",
-        description: "Izabela Miętka (brak tłumaczenia)",
+        description: "Izabela Miętka",
         start: "11:00",
         end: "11:30",
       },
@@ -264,19 +263,19 @@ const scheduleEN = [
       },
       {
         name: "Lecture",
-        description: "Giulia Boschi (brak tłumaczenia)",
+        description: "Giulia Boschi",
         start: "12:00",
         end: "12:30",
       },
       {
         name: "Lecture",
-        description: "Ricardo Teixeira (brak tłumaczenia)",
+        description: "Ricardo Teixeira",
         start: "12:30",
         end: "13:00",
       },
       {
         name: "Lecture",
-        description: "Marta Nizioł (brak tłumaczenia)",
+        description: "Marta Nizioł",
         start: "13:00",
         end: "13:30",
       },
@@ -289,21 +288,20 @@ const scheduleEN = [
       {
         name: "Lecture 1",
         description:
-          "Hamid Montakab (interp. by Marta Nizioł). From Conception to Birth. (Od poczęcia do narodzin. Akupunktura wspierająca okres ciąży oraz porodu – brak tłumaczenia)",
+          "Hamid Montakab. From Conception to Birth. (Od poczęcia do narodzin.",
         start: "15:00",
         end: "18:00",
       },
       {
         name: "Lecture 2",
         description:
-          "Ricardo Teixeira (interp. by Irena Susz). Workshop: Acupuncture Techniques – Adding effective tools to your Clinical Toolkit. (Warsztat: Techniki akupunktury – dodatkowe skuteczne narzędzia do Twojej praktyki – brak tłumaczenia)",
+          "Ricardo Teixeira. Workshop: Acupuncture Techniques – Adding effective tools to your Clinical Toolkit.",
         start: "15:00",
         end: "18:00",
       },
       {
         name: "Lecture 3",
-        description:
-          "Mazin Al-Khafaji (interp. by Ania Słowik). Dermatology in Chinese Medicine. (Dermatologia w medycynie chińskiej – brak tłumaczenia)",
+        description: "Mazin Al-Khafaji. Dermatology in Chinese Medicine.",
         start: "15:00",
         end: "18:00",
       },
@@ -323,21 +321,21 @@ const scheduleEN = [
       {
         name: "Lecture 1",
         description:
-          "Hamid Montakab (interp. by Marta Nizioł). The 8 Extraordinary Vessels and psychological profiles part 1. (8 Kanałów Cudownych oraz profile psychologiczne cz.1 – brak tłumaczenia)",
+          "Hamid Montakab. The 8 Extraordinary Vessels and psychological profiles part 1.",
         start: "10:00",
         end: "13:30",
       },
       {
         name: "Lecture 2",
         description:
-          "Yair Maimon / Izabela Miętka. Acupuncture Treatment of menopause Haven, Earth perspective. (Akupunktura w leczeniu menopauzy – perspektywa Nieba i Ziemi – brak tłumaczenia)",
+          "Yair Maimon / Izabela Miętka. Acupuncture Treatment of menopause Haven, Earth perspective. ",
         start: "10:00",
         end: "13:30",
       },
       {
         name: "Lecture 3",
         description:
-          "Mazin Al-Khafaji (interp. by Ania Słowik). Treating Atopic Dermatitis in Infants. (Leczenie atopowego zapalenia skóry u niemowląt – brak tłumaczenia)",
+          "Mazin Al-Khafaji. Treating Atopic Dermatitis in Infants. ",
         start: "10:00",
         end: "13:30",
       },
@@ -356,7 +354,7 @@ const scheduleEN = [
       {
         name: "Lecture 1",
         description:
-          "Hamid Montakab (interp. by Marta Nizioł). The 8 Extraordinary Vessels and psychological profiles part 2. (8 Kanałów Cudownych oraz profile psychologiczne cz.2 – brak tłumaczenia)",
+          "Hamid Montakab. The 8 Extraordinary Vessels and psychological profiles part 2. ",
         start: "15:00",
         end: "18:00",
       },
@@ -369,7 +367,7 @@ const scheduleEN = [
       {
         name: "Lecture 3",
         description:
-          "Jong Baik (interp. by Ania Słowik). An Explanation of the Interrelationship between Jing, Qi and Shen. (Wyjaśnienie Wzajemnej Zależności między Jing, Qi i Shen – brak tłumaczenia)",
+          "Jong Baik. An Explanation of the Interrelationship between Jing, Qi and Shen.",
         start: "15:00",
         end: "18:00",
       },
@@ -395,21 +393,20 @@ const scheduleEN = [
       {
         name: "Lecture 1",
         description:
-          "Jong Baik (interp. by Ania Słowik). A Multi-Microsystems Approach to Pain and Pain Management. (Podejście multi-mikrosystemowe w pracy z bólem – brak tłumaczenia)",
+          "Jong Baik. A Multi-Microsystems Approach to Pain and Pain Management.",
         start: "9:30",
         end: "12:30",
       },
       {
         name: "Lecture 2",
         description:
-          "Giulia Boschi (interp. by Marta Nizioł). Beyond the seven qing: the language of emotions in Classical Chinese Medicine. (Poza siedmioma qing: język emocji w klasycznej medycynie chińskiej – brak tłumaczenia)",
+          "Giulia Boschi. Beyond the seven qing: the language of emotions in Classical Chinese Medicine.",
         start: "9:30",
         end: "12:30",
       },
       {
         name: "Lecture 3",
-        description:
-          "Mieke Fraussen. Face Reading, Trauma & Healing part 1. (CZYTANIE Z TWARZY, TRAUMA I UZDROWIENIE. Cz.1 – brak tłumaczenia)",
+        description: "Mieke Fraussen. Face Reading, Trauma & Healing part 1.",
         start: "9:30",
         end: "12:30",
       },
@@ -421,28 +418,27 @@ const scheduleEN = [
       },
       {
         name: "Transforming role of the Earth element",
-        description: "Marta Nizioł (brak tłumaczenia)",
+        description: "Marta Nizioł",
         start: "12:30",
         end: "13:30",
       },
       {
         name: "Lecture 1",
         description:
-          "Jeffrey Hui Zhang (interp. by Ania Słowik). WeiQi (Defensive Qi) and Wei-Qi (Levels): Integrating Shang Han Lun and Wen Bing. (Weiqi (Qi obronne) i Wei-Qi (poziomy): Integracja Shang Han Lun i Wen Bing – brak tłumaczenia)",
+          "Jeffrey Hui Zhang. WeiQi (Defensive Qi) and Wei-Qi (Levels): Integrating Shang Han Lun and Wen Bing.",
         start: "13:30",
         end: "16:30",
       },
       {
         name: "Lecture 2",
         description:
-          "Bartosz Chmielnicki. Blood and Breath: The Origins of Acupuncture. (Krew i oddech, czyli skąd się wzięła akupunktura? – brak tłumaczenia)",
+          "Bartosz Chmielnicki. Blood and Breath: The Origins of Acupuncture.",
         start: "13:30",
         end: "16:30",
       },
       {
         name: "Lecture 3",
-        description:
-          "Mieke Fraussen. Face Reading, Trauma & Healing part 2. (CZYTANIE Z TWARZY, TRAUMA I UZDROWIENIE. Cz.2 – brak tłumaczenia)",
+        description: "Mieke Fraussen. Face Reading, Trauma & Healing part 2.",
         start: "13:30",
         end: "16:30",
       },
