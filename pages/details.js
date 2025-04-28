@@ -508,18 +508,16 @@ function Example() {
   const comments = router.locale === "pl" ? commentsPL : commentsEN;
 
   return (
-    // Możesz usunąć "divide-y divide-gray-200", jeśli nie chcesz linii pomiędzy elementami
     <ul role="list" className="mx-auto max-w-3xl divide-y divide-gray-200">
       {comments.map((comment) => (
         <li key={comment.id} className="flex items-start gap-6 py-8">
-          {/* Kontener na obrazek – w prosty sposób: 128x128 px albo  w-32 h-32 */}
           <div className="flex-shrink-0">
             <Image
               src={comment.imageUrl}
               alt={comment.name}
               width={128}
               height={128}
-              className="w-32 h-32 object-cover rounded-lg"
+              className="w-32 h-32 rounded-lg object-cover object-top"
             />
           </div>
 
