@@ -11,6 +11,7 @@ import Olszowska from "@/public/images/Olszowska.jpeg";
 import Heland from "@/public/images/Heland.png";
 import Giulia from "@/public/images/Giulia.png";
 import Zhang from "@/public/images/Zhang.png";
+import Mazin from "@/public/images/Mazin.png";
 
 import { useTranslation } from "next-i18next";
 import { useRouter } from "next/router";
@@ -71,11 +72,11 @@ const people = [
     imageUrl: Zhang,
     url: "/zhang",
   },
-  // {
-  //   name: "Mazin Al Khafaj",
-  //   imageUrl: null,
-  //   url: "/khafaj",
-  // },
+  {
+    name: "Mazin Al Khafaj",
+    imageUrl: Mazin,
+    url: "/mazin",
+  },
   {
     name: "Giulia Boschi",
     imageUrl: Giulia,

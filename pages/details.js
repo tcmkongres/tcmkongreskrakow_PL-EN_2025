@@ -14,6 +14,7 @@ import Mietka from "@/public/images/Mietka.png";
 import Heland from "@/public/images/Heland.png";
 import Giulia from "@/public/images/Giulia.png";
 import Zhang from "@/public/images/Zhang.png";
+import Mazin from "@/public/images/Mazin.png";
 
 //////////////////////////////////////////////
 // WERSJA POLSKA
@@ -24,16 +25,19 @@ const commentsPL = [
   {
     id: 1,
     name: "Mazin Al-Khafaji",
-    imageUrl: null, // jeśli nie masz wczytanego obrazka, można dać null
-    date: "Piątek 10.10.2025, 15.00-18.00",
+    imageUrl: Mazin,
+    date: null,
     title: "Dermatologia w medycynie chińskiej",
-    description: "brak opisu",
+    description:
+      "Choroby skóry, w ich wielu formach, są jednymi z najczęstszych schorzeń, stanowiącymi prawie 25% wszystkich wizyt u lekarza. Pomimo rozległych badań i zasobów poświęconych dermatologii, wielu pacjentów pozostaje niezadowolonych z konwencjonalnych metod leczenia i poszukuje alternatywnych rozwiązań.\n" +
+      "Po czterech dekadach praktyki klinicznej jestem w pełni przekonany, że chińska medycyna ziołowa oferuje potężne i trwałe rozwiązanie dla wielu osób cierpiących na powszechne choroby skóry. Ma ona potencjał, aby przynieść niezwykłą i trwałą poprawę w przypadku uporczywych zaburzeń, takich jak trądzik, egzema, trądzik różowaty i łuszczyca. Jednak ze względu na brak specjalistycznego szkolenia i doświadczenia klinicznego, wielu praktyków medycyny chińskiej ma trudności z osiągnięciem najlepszych możliwych wyników - wyników, które są w ich zasięgu.\n" +
+      "W tej krótkiej prezentacji przedstawię podstawowe zasady dermatologii w medycynie chińskiej i zbadam jej potencjał w zakresie transformacji leczenia chorób skóry.",
   },
   {
     id: 2,
     name: "HAMID MONTAKAB",
     imageUrl: Montakab,
-    date: "Piątek 10.10.2025, 15.00-18.00",
+    date: null,
     title:
       "Od poczęcia do narodzin. Akupunktura wspierająca podczas ciąży i porodu",
     description:
@@ -53,7 +57,7 @@ const commentsPL = [
     id: 14,
     name: "ELŻBIETA HELAND",
     imageUrl: Heland,
-    date: "Piątek 10.10.2025, 15.00-18.00",
+    date: null,
     title:
       "Pięć Duchów jako manifestacja jednego Źródła - Shen na podstawie tekstów źródłowych klasycznej medycyny chińskiej",
     description: `„Niebiosa manifestują się jako 德 dé we mnie. Ziemia manifestuje się jako 氣 qì we mnie.”
@@ -69,7 +73,7 @@ Druga część wykładu będzie poświęcona praktycznemu zastosowaniu tej teori
     id: 3,
     name: "HAMID MONTAKAB",
     imageUrl: Montakab,
-    date: "Sobota 11.10.2025, 10.00-13.00 / 15.00-18.00",
+    date: null,
     title: "8 Kanałów Cudownych oraz profile psychologiczne",
     description:
       "Kanały cudowne wspierają rozwój Jing (Esencji) od pierwszego momentu poczęcia i koordynują różne etapy życia i transformacje zgodnie ze zdeponowanym „Ming” (Mandatem Życia). W ten sposób odgrywają kluczową rolę w psycho-duchowej ewolucji człowieka, a także w jego rozwoju fizycznym..\n" +
@@ -87,7 +91,7 @@ Druga część wykładu będzie poświęcona praktycznemu zastosowaniu tej teori
     id: 4,
     name: "MIEKE FRAUSSEN",
     imageUrl: Fraussen,
-    date: "Niedziela 12.10.2025, 9.30-12.30 / 13.30-16.30",
+    date: null,
     title: "CZYTANIE Z TWARZY, TRAUMA I UZDROWIENIE",
     description: `Z TWARZY, TRAUMA I UZDROWIENIE
 Integracja Chińskiego czytania z twarzy z podejściem zachodnio-naukowym w uzdrawianiu traumy
@@ -108,7 +112,7 @@ To podejście pozwala nam nie tylko rozpoznać traumę, ale także ją przetworz
     id: 5,
     name: "JEFFREY HUI ZHANG",
     imageUrl: Zhang,
-    date: "Niedziela 12.10.2025, 13.30-16.30",
+    date: null,
     title:
       "Weiqi (Qi obronne) i Wei-Qi (poziomy): Integracja Shang Han Lun i Wen Bing",
     description:
@@ -207,10 +211,13 @@ Ta prezentacja zostanie przedstawiona z perspektywy Tradycyjnej Medycyny Wschodn
   {
     id: 12,
     name: "MAZIN AL-KHAFAJI",
-    imageUrl: null,
+    imageUrl: Mazin,
     date: null,
     title: "Leczenie atopowego zapalenia skóry u niemowląt",
-    description: "brak opisu",
+    description:
+      "Atopowe zapalenie skóry (AZS), najczęstsza forma egzemy, osiągnęła poziom epidemii, dotykając około 30% dzieci. Stanowi to 2- do 3-krotny wzrost w ciągu ostatnich kilku dekad. AZS jest często powiązane z innymi schorzeniami ogólnoustrojowymi, w tym astmą, alergicznym nieżytem nosa i alergiami pokarmowymi, co czyni je istotnym problemem w opiece pediatrycznej.\n" +
+      "Dzięki czterdziestoletniemu doświadczeniu klinicznemu w leczeniu tego schorzenia stwierdziłem, że chińska medycyna ziołowa jest wysoce skuteczna we wszystkich grupach wiekowych. Jednak, podobnie jak w przypadku innych schorzeń dotykających niemowlęta - takich jak astma i alergie pokarmowe - najlepsze długoterminowe wyniki osiąga się, gdy leczenie rozpoczyna się wcześnie. Jest to zgodne z zasadą, że wczesna interwencja w systemy biologiczne promuje większą stabilność i trwałą poprawę.\n" +
+      "W tym wykładzie przedstawię podstawowe zasady leczenia niemowląt z atopowym zapaleniem skóry i omówię znaczenie terminowej, skutecznej interwencji.",
   },
 
   // Dodatkowy wykład Giulii Boschi (Pięć Duchów) – również bez daty
@@ -238,16 +245,21 @@ const commentsEN = [
   {
     id: 1,
     name: "MAZIN AL-KHAFAJI",
-    imageUrl: null,
-    date: "Friday 10.10.2025, 15:00-18:00",
+    imageUrl: Mazin,
+    date: null,
     title: "Dermatology in Chinese Medicine",
-    description: "no description",
+    description:
+      "Skin disorders, in their many forms, are among the most common medical conditions, accounting for nearly 25% of all doctor visits. Despite the extensive research and resources dedicated to dermatology, many patients remain dissatisfied with conventional treatments and seek alternative solutions.\n" +
+      "\n" +
+      "After four decades of clinical practice, I am fully convinced that Chinese herbal medicine offers a powerful and lasting solution for many individuals suffering from common skin conditions. It has the potential to bring about remarkable and enduring improvements in persistent disorders such as acne, eczema, rosacea, and psoriasis. However, due to a lack of specialized training and clinical experience, many practitioners of Chinese medicine struggle to achieve the best possible outcomes—results that are well within their reach.\n" +
+      "\n" +
+      "In this brief presentation, I will outline the fundamental principles of dermatology in Chinese medicine and explore its potential to transform the treatment of skin diseases.",
   },
   {
     id: 2,
     name: "HAMID MONTAKAB",
     imageUrl: Montakab,
-    date: "Friday 10.10.2025, 15:00-18:00",
+    date: null,
     title: "From Conception to Birth",
     description:
       "Acupuncture support during pregnancy and birth\n" +
@@ -283,7 +295,7 @@ const commentsEN = [
     id: 14,
     name: "ELŻBIETA HELAND",
     imageUrl: Heland,
-    date: "Friday 10.10.2025, 15:00-18:00",
+    date: null,
     title:
       "The Five Spirits as a Manifestation of One Source - Shen based on the Source Texts of Classical Chinese Medicine",
     description: `“Heaven manifests as 德 dé within me. Earth manifests as 氣 qì within me.”
@@ -299,7 +311,7 @@ The second part of the lecture will focus on the practical application of this t
     id: 3,
     name: "HAMID MONTAKAB",
     imageUrl: Montakab,
-    date: "Saturday 11.10.2025, 10:00-13:00 / 15:00-18:00",
+    date: null,
     title: "The 8 Extraordinary Vessels and psychological profiles",
     description:
       "The 8 Extraordinary Vessels and Psychological profiles\t\n" +
@@ -319,7 +331,7 @@ The second part of the lecture will focus on the practical application of this t
     id: 4,
     name: "MIEKE FRAUSSEN",
     imageUrl: Fraussen,
-    date: "Sunday 12.10.2025, 9:30-12:30 / 13:30-16:30",
+    date: null,
     title: "Face Reading, Trauma & Healing",
     description: `Integrating Chinese Face Reading with Western Science in TCM to Transform Trauma.
 
@@ -344,7 +356,7 @@ This approach allows us not only to recognize trauma but also to process and tra
     id: 5,
     name: "JEFFREY HUI ZHANG",
     imageUrl: Zhang,
-    date: "Sunday 12.10.2025, 13:30-16:30",
+    date: null,
     title:
       "Weiqi (Defensive Qi) and Wei-Qi (Levels): Integrating Shang Han Lun and Wen Bing",
     description:
@@ -463,10 +475,15 @@ This presentation will be given from the perspective of Traditional East Asian M
   {
     id: 12,
     name: "MAZIN AL-KHAFAJI",
-    imageUrl: null,
+    imageUrl: Mazin,
     date: null,
     title: "Treating Atopic Dermatitis in Infants",
-    description: "no description",
+    description:
+      "Atopic dermatitis (AD), the most common form of eczema, has reached epidemic levels, affecting an estimated 30% of children. This represents a 2- to 3-fold increase over the past few decades. AD is often linked to other systemic conditions, including asthma, allergic rhinitis, and food allergies, making it a significant concern in paediatric care.\n" +
+      "\n" +
+      "With four decades of clinical experience managing this condition, I have found Chinese herbal medicine to be highly effective across all age groups. However, as with other conditions that affect infants - such as asthma and food allergies - the best long-term outcomes are achieved when treatment begins early. This aligns with the principle that early intervention in biological systems promotes greater stability and sustained improvement.\n" +
+      "\n" +
+      "In this talk, I will outline the fundamental principles of treating infants with atopic dermatitis and discuss the importance of timely, effective intervention.",
   },
 
   // Additional lecture from Giulia Boschi (Five Spirits)
