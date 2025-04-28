@@ -1,88 +1,8 @@
 import Image from "next/image";
-import Chmielnicki from "@/public/images/Chmielnicki.png";
-import Maimon from "@/public/images/Maimon.png";
-import Teixeira from "@/public/images/Teixeira.png";
-import Montakab from "@/public/images/Montakab.jpeg";
-import Baik from "@/public/images/Baik.png";
-import Mietka from "@/public/images/Mietka.png";
-import Wojniusz from "@/public/images/Wojniusz.jpg";
-import Fraussen from "@/public/images/Fraussen.png";
-import Olszowska from "@/public/images/Olszowska.jpeg";
-import Heland from "@/public/images/Heland.png";
-import Giulia from "@/public/images/Giulia.png";
-import Zhang from "@/public/images/Zhang.png";
-import Mazin from "@/public/images/Mazin.png";
+import { people } from "@/components/utils/SpeakersData";
 
 import { useTranslation } from "next-i18next";
 import { useRouter } from "next/router";
-
-const people = [
-  {
-    name: "Yair Maimon",
-    imageUrl: Maimon,
-    url: "/maimon",
-  },
-  {
-    name: "Hamid Montakab",
-    imageUrl: Montakab,
-    url: "/montakab",
-  },
-  {
-    name: "Bartosz Chmielnicki",
-    imageUrl: Chmielnicki,
-    url: "/chmielnicki",
-  },
-  {
-    name: "Ricardo Teixeira",
-    imageUrl: Teixeira,
-    url: "/teixeira",
-  },
-  {
-    name: "Jong Kook Baik",
-    imageUrl: Baik,
-    url: "/baik",
-  },
-  {
-    name: "Izabela Miętka",
-    imageUrl: Mietka,
-    url: "/mietka",
-  },
-  {
-    name: "Marta Nizioł-Wojniusz",
-    imageUrl: Wojniusz,
-    url: "/wojniusz",
-  },
-  {
-    name: "Mieke Fraussen",
-    imageUrl: Fraussen,
-    url: "/fraussen",
-  },
-  {
-    name: "Bożena Olszowska",
-    imageUrl: Olszowska,
-    url: "/olszowska",
-  },
-  {
-    name: "Elżbieta Heland",
-    imageUrl: Heland,
-    url: "/heland",
-  },
-  {
-    name: "Jeffrey Hui Zhang",
-    imageUrl: Zhang,
-    url: "/zhang",
-  },
-  {
-    name: "Mazin Al Khafaj",
-    imageUrl: Mazin,
-    url: "/mazin",
-  },
-  {
-    name: "Giulia Boschi",
-    imageUrl: Giulia,
-    url: "/giulia",
-  },
-];
 
 people.sort((a, b) =>
   a.name.localeCompare(b.name, "pl", { sensitivity: "base" }),
@@ -110,7 +30,10 @@ export default function Speakers() {
         >
           {people.map((person) => {
             const localizedUrl =
-              locale === "en" ? `/en${person.url}` : person.url;
+              locale === "en"
+                ? `/en/speaker${person.url}`
+                : `/speaker${person.url}`;
+
             return (
               <a key={person.name} href={localizedUrl}>
                 <li>
