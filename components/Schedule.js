@@ -8,7 +8,6 @@ import { useRouter } from "next/router";
 // =======================================
 //    Nowe dane: POLSKA WERSJA (schedulePL)
 // =======================================
-
 const schedulePL = [
   {
     date: "Piątek",
@@ -66,21 +65,21 @@ const schedulePL = [
       {
         name: "Wykład 1",
         description:
-          "Hamid Montakab (Tłum. Marta Nizioł). Akupunktura wspierająca okres ciąży oraz porodu.",
+          "Hamid Montakab (Tłum. Marta Nizioł). From Conception to Birth. Od poczęcia do narodzin. Akupunktura wspierająca okres ciąży oraz porodu.",
         start: "15:00",
         end: "18:00",
       },
       {
         name: "Wykład 2",
         description:
-          "Ricardo Teixeira (Tłum. Irena Susz). Warsztat: Techniki akupunktury – dodatkowe skuteczne narzędzia do Twojej praktyki.",
+          "Elżbieta Heland. Pięć Duchów jako manifestacja jednego źródła – Shen na podstawie tekstów źródłowych klasycznej medycyny chińskiej.",
         start: "15:00",
         end: "18:00",
       },
       {
         name: "Wykład 3",
         description:
-          "Mazin Al-Khafaji (Tłum. Ania Słowik). Dermatologia w medycynie chińskiej.",
+          "Mazin Al-Khafaji (Tłum. Ania Słowik). Dermatologia w medycynie chińskiej, Dermatology in Chinese Medicine.",
         start: "15:00",
         end: "18:00",
       },
@@ -137,12 +136,13 @@ const schedulePL = [
         start: "15:00",
         end: "18:00",
       },
-      // {
-      //   name: "Wykład 2",
-      //   description: "brak danych",
-      //   start: "15:00",
-      //   end: "18:00",
-      // },
+      {
+        name: "Wykład 2",
+        description:
+          "Ricardo Teixeira (Tłum. Irena Susz). Warsztat: Techniki akupunktury – dodatkowe skuteczne narzędzia do Twojej praktyki.",
+        start: "15:00",
+        end: "18:00",
+      },
       {
         name: "Wykład 3",
         description:
@@ -288,14 +288,14 @@ const scheduleEN = [
       {
         name: "Lecture 1",
         description:
-          "Hamid Montakab. From Conception to Birth. (Od poczęcia do narodzin.",
+          "Hamid Montakab. From Conception to Birth. Acupuncture supporting pregnancy and labour.",
         start: "15:00",
         end: "18:00",
       },
       {
         name: "Lecture 2",
         description:
-          "Ricardo Teixeira. Workshop: Acupuncture Techniques – Adding effective tools to your Clinical Toolkit.",
+          "Elżbieta Heland. Five Spirits as the manifestation of a single source – Shen based on classical Chinese medicine texts.",
         start: "15:00",
         end: "18:00",
       },
@@ -328,14 +328,13 @@ const scheduleEN = [
       {
         name: "Lecture 2",
         description:
-          "Yair Maimon / Izabela Miętka. Acupuncture Treatment of menopause Haven, Earth perspective. ",
+          "Yair Maimon / Izabela Miętka. Acupuncture Treatment of menopause – Heaven, Earth perspective.",
         start: "10:00",
         end: "13:30",
       },
       {
         name: "Lecture 3",
-        description:
-          "Mazin Al-Khafaji. Treating Atopic Dermatitis in Infants. ",
+        description: "Mazin Al-Khafaji. Treating Atopic Dermatitis in Infants.",
         start: "10:00",
         end: "13:30",
       },
@@ -354,16 +353,17 @@ const scheduleEN = [
       {
         name: "Lecture 1",
         description:
-          "Hamid Montakab. The 8 Extraordinary Vessels and psychological profiles part 2. ",
+          "Hamid Montakab. The 8 Extraordinary Vessels and psychological profiles part 2.",
         start: "15:00",
         end: "18:00",
       },
-      // {
-      //   name: "Lecture 2",
-      //   description: "brak danych",
-      //   start: "15:00",
-      //   end: "18:00",
-      // },
+      {
+        name: "Lecture 2",
+        description:
+          "Ricardo Teixeira. Workshop: Acupuncture Techniques – Adding effective tools to your Clinical Toolkit.",
+        start: "15:00",
+        end: "18:00",
+      },
       {
         name: "Lecture 3",
         description:
