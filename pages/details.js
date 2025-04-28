@@ -13,6 +13,7 @@ import Chmielnicki from "@/public/images/Chmielnicki.png";
 import Mietka from "@/public/images/Mietka.png";
 import Heland from "@/public/images/Heland.png";
 import Giulia from "@/public/images/Giulia.png";
+import Zhang from "@/public/images/Zhang.png";
 
 //////////////////////////////////////////////
 // WERSJA POLSKA
@@ -106,7 +107,7 @@ To podejście pozwala nam nie tylko rozpoznać traumę, ale także ją przetworz
   {
     id: 5,
     name: "JEFFREY HUI ZHANG",
-    imageUrl: null,
+    imageUrl: Zhang,
     date: "Niedziela 12.10.2025, 13.30-16.30",
     title:
       "Weiqi (Qi obronne) i Wei-Qi (poziomy): Integracja Shang Han Lun i Wen Bing",
@@ -342,7 +343,7 @@ This approach allows us not only to recognize trauma but also to process and tra
   {
     id: 5,
     name: "JEFFREY HUI ZHANG",
-    imageUrl: null,
+    imageUrl: Zhang,
     date: "Sunday 12.10.2025, 13:30-16:30",
     title:
       "Weiqi (Defensive Qi) and Wei-Qi (Levels): Integrating Shang Han Lun and Wen Bing",
