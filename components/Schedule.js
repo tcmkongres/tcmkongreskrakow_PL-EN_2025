@@ -65,7 +65,7 @@ const schedulePL = [
       {
         name: "Wykład 1",
         description:
-          "Hamid Montakab (Tłum. Marta Nizioł). From Conception to Birth. Od poczęcia do narodzin. Akupunktura wspierająca okres ciąży oraz porodu.",
+          "Hamid Montakab. From Conception to Birth. Od poczęcia do narodzin. Akupunktura wspierająca okres ciąży oraz porodu.",
         start: "15:00",
         end: "18:00",
       },
@@ -79,7 +79,7 @@ const schedulePL = [
       {
         name: "Wykład 3",
         description:
-          "Mazin Al-Khafaji (Tłum. Ania Słowik). Dermatologia w medycynie chińskiej, Dermatology in Chinese Medicine.",
+          "Mazin Al-Khafaji. Dermatologia w medycynie chińskiej, Dermatology in Chinese Medicine.",
         start: "15:00",
         end: "18:00",
       },
@@ -99,7 +99,7 @@ const schedulePL = [
       {
         name: "Wykład 1",
         description:
-          "Hamid Montakab (Tłum. Marta Nizioł). 8 Kanałów Cudownych oraz profile psychologiczne cz.1",
+          "Hamid Montakab. 8 Kanałów Cudownych oraz profile psychologiczne cz.1",
         start: "10:00",
         end: "13:30",
       },
@@ -113,7 +113,7 @@ const schedulePL = [
       {
         name: "Wykład 3",
         description:
-          "Mazin Al-Khafaji (Tłum. Ania Słowik). Leczenie atopowego zapalenia skóry u niemowląt.",
+          "Mazin Al-Khafaji. Leczenie atopowego zapalenia skóry u niemowląt.",
         start: "10:00",
         end: "13:30",
       },
@@ -125,28 +125,28 @@ const schedulePL = [
       },
       {
         name: "Ricardo Teixeira",
-        description: "brak tłumaczenia",
+        description: null,
         start: "13:30",
         end: "15:00",
       },
       {
         name: "Wykład 1",
         description:
-          "Hamid Montakab (Tłum. Marta Nizioł). 8 Kanałów Cudownych oraz profile psychologiczne cz.2",
+          "Hamid Montakab. 8 Kanałów Cudownych oraz profile psychologiczne cz.2",
         start: "15:00",
         end: "18:00",
       },
       {
         name: "Wykład 2",
         description:
-          "Ricardo Teixeira (Tłum. Irena Susz). Warsztat: Techniki akupunktury – dodatkowe skuteczne narzędzia do Twojej praktyki.",
+          "Ricardo Teixeira. Warsztat: Techniki akupunktury – dodatkowe skuteczne narzędzia do Twojej praktyki.",
         start: "15:00",
         end: "18:00",
       },
       {
         name: "Wykład 3",
         description:
-          "Jong Baik (Tłum. Ania Słowik). Wyjaśnienie Wzajemnej Zależności między Jing, Qi i Shen.",
+          "Jong Baik. Wyjaśnienie Wzajemnej Zależności między Jing, Qi i Shen.",
         start: "15:00",
         end: "18:00",
       },
@@ -172,14 +172,14 @@ const schedulePL = [
       {
         name: "Wykład 1",
         description:
-          "Jong Baik (Tłum. Ania Słowik). Podejście multi-mikrosystemowe w pracy z bólem.",
+          "Jong Baik. Podejście multi-mikrosystemowe w pracy z bólem.",
         start: "9:30",
         end: "12:30",
       },
       {
         name: "Wykład 2",
         description:
-          "Giulia Boschi (Tłum. Marta Nizioł). Poza siedmioma qing: język emocji w klasycznej medycynie chińskiej.",
+          "Giulia Boschi. Poza siedmioma qing: język emocji w klasycznej medycynie chińskiej.",
         start: "9:30",
         end: "12:30",
       },
@@ -205,7 +205,7 @@ const schedulePL = [
       {
         name: "Wykład 1",
         description:
-          "Jeffrey Hui Zhang (Tłum. Ania Słowik). Weiqi (Qi obronne) i Wei-Qi (poziomy): Integracja Shang Han Lun i Wen Bing.",
+          "Jeffrey Hui Zhang. Weiqi (Qi obronne) i Wei-Qi (poziomy): Integracja Shang Han Lun i Wen Bing.",
         start: "13:30",
         end: "16:30",
       },
