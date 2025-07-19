@@ -212,7 +212,7 @@ const schedulePL = [
       {
         name: "Wykład 2",
         description:
-          "Bartosz Chmielnicki. Krew i oddech, czyli skąd się wzięła akupunktura?",
+          "Bartosz Chmielnicki. Wcielenie, czyli Hun, Po i embriologia.",
         start: "13:30",
         end: "16:30",
       },
@@ -432,7 +432,7 @@ const scheduleEN = [
       {
         name: "Lecture 2",
         description:
-          "Bartosz Chmielnicki. Blood and Breath: The Origins of Acupuncture.",
+          "Bartosz Chmielnicki. Incarnation: Hun, Po, and Embryology.",
         start: "13:30",
         end: "16:30",
       },

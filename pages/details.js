@@ -175,11 +175,12 @@ Ta prezentacja zostanie przedstawiona z perspektywy Tradycyjnej Medycyny Wschodn
     name: "BARTOSZ CHMIELNICKI",
     imageUrl: Chmielnicki,
     date: null,
-    title: "Krew i oddech, czyli skąd się wzięła akupunktura?",
-    description:
-      "Skąd Chińczycy znali przebiegi meridianów, lokalizację i działanie punktów? Czy Hipokrates z Kos był akupunkturzystą? Jak i kiedy zaczęła się historia akupunktury? Czy powinniśmy czuć się niegodnymi spadkobiercami taoistycznych mędrców, którzy leczyli choroby po prostu manipulując Qi?\n" +
-      "\n" +
-      "Podobne pytania często słyszę od swoich Studentów, sam zresztą zadawałem je sobie nieskończoną ilość razy. Podczas krótkiego wykładu plenarnego opowiem Wam historię początków akupunktury, pokażę proces jej rozwoju od proto-anatomicznych obserwacji i krwioupustów po wysublimowany system, który znamy z Nei Jing. Zaproszę Was na fascynującą podróż przez stulecia do niezwykłego momentu w historii, w którym jednoczące się przyszłe cesarstwo umożliwiła niezwykłą interakcję między brutalnym światem wojskowych chirurgów a kosmologicznymi ideami wczesnych taoistów. ",
+    title: "Wcielenie, czyli Hun, Po i embriologia",
+    description: `„Skąd się biorą dzieci?” – to pytanie jest wstępem do poważniejszej refleksji nad początkami ludzkiego życia, gdzie często spoglądamy spodziewając się znaleźć wskazówki dotyczące jego końca albo przynajmniej sensu. Podobne kierunki poszukiwań mieli również starożytni chińscy mędrcy, którzy opisywali jak interakcja pomiędzy Yin i Yang rodziców wytwarza potencjał zapraszający Shen do wlania się w ludzką formę. 
+
+Podczas wykładu spojrzymy na antyczne teksty, zarówno medyczne jak i filozoficzne wysnuwając z nich opowieść o wcieleniu, o tym jak Shen zamieszkuje w Jing i animuje rozwój Esencji, żeby stworzyła dla niego nowy dom - ciało. Zaczynając od rozważań o naturze Po i Hun przejdziemy wspólnie przez trzy trymestry i dziesięć księżycowych miesięcy ciąży przyglądając się powstawaniu i aktywacji kolejnych funkcji ciała aż do porodu. Starożytne chińskie idee znajdą swój niespodziewany wyraz, kiedy porównamy je ze współczesną embriologią. Omawiając kolejne miesiące ciąży, poza edukacyjną perspektywą zrozumienia procesów tworzenia ludzkiego ciała pokażę również bardzo praktyczne zasady prowadzenia kobiet ciężarnych w gabinecie. 
+
+Chcesz dowiedzieć się dlaczego Pc 6 aktywuje Yin Wei Mai, jak San Jiao dystrybuuje YuanQi, kiedy dziecko zaczyna słyszeć swoją mamę, ale także jakie kanały wspierać, a jakich unikać w określonym czasie ciąży – zapraszam serdecznie.`,
   },
   {
     id: 10,
@@ -428,13 +429,20 @@ This presentation will be given from the perspective of Traditional East Asian M
     name: "BARTOSZ CHMIELNICKI",
     imageUrl: Chmielnicki,
     date: null,
-    title: "Blood and Breath: The Origins of Acupuncture",
-    description:
-      "How did the Chinese come to know the pathways of the meridians, the locations, and functions of acupuncture points? Was Hippocrates of Kos an acupuncturist? When and how did the story of acupuncture truly begin? Should we consider ourselves unworthy heirs to the Taoist sages who treated disease simply by manipulating Qi?\n" +
-      "\n" +
-      "These are questions I often hear from my students — and ones I have asked myself countless times. In this plenary lecture, I will trace the early history of acupuncture, outlining its evolution from proto-anatomical observations and bloodletting practices to the sophisticated medical system described in the Nei Jing.\n" +
-      "\n" +
-      "Join me on a journey across centuries, toward a pivotal moment in Chinese history: the unification of the empire, which enabled an extraordinary encounter between the brutal pragmatism of military surgeons and the cosmological insights of early Taoist thinkers.",
+    title: "Incarnation: Hun, Po, and Embryology",
+    description: `"Where do children come from?" This simple question often opens the door to a deeper reflection on the origins of human life — a reflection in which we also hope to glimpse something about its end, or at least its meaning. Ancient Chinese sages asked similar questions, describing how the interplay of parental Yin and Yang creates a potential that invites the Shen to descend into human form.
+
+ 
+
+In this lecture, we will explore classical Chinese texts — both medical and philosophical — and weave from them a narrative of incarnation: how the Shen enters the Jing and animates the unfolding of Essence to create a new dwelling — the human body. Beginning with an examination of the nature of Hun and Po, we will move through the three trimesters and ten lunar months of pregnancy, observing the emergence and activation of bodily functions leading up to birth.
+
+ 
+
+These ancient ideas will find surprising resonance when compared with modern embryology. Month by month, this journey will not only illuminate the classical Chinese vision of fetal development but also offer practical guidance for treating pregnant patients in the clinic.
+
+ 
+
+If you are curious why Pc 6 activates the Yin Wei Mai, how the San Jiao distributes Yuan Qi, when a baby begins to hear its mother — and which channels to support or avoid at each stage of pregnancy — I warmly invite you to join.`,
   },
   {
     id: 10,
