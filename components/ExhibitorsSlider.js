@@ -8,8 +8,9 @@ import logo5 from "@/public/images/exhibitors/logo OP szkola naturalnego NEW-09.
 import logo6 from "@/public/images/exhibitors/Delewin logotyp.png";
 import logo7 from "@/public/images/exhibitors/TCM BOHEMIA_PNG.png";
 import logo8 from "@/public/images/exhibitors/TCMsklep-logo-czerwone-800x133px.png";
+import logo9 from "@/public/images/exhibitors/Logo_DocSave2021_10cm_600dpi.jpg";
 
-const logos = [logo1, logo2, logo3, logo4, logo5, logo6, logo7, logo8];
+const logos = [logo1, logo2, logo3, logo4, logo5, logo6, logo7, logo8, logo9];
 
 export default function ExhibitorsSlider() {
   return (
