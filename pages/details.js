@@ -207,7 +207,9 @@ Chcesz dowiedzieć się dlaczego Pc 6 aktywuje Yin Wei Mai, jak San Jiao dystryb
     date: null,
     title:
       "Warsztat: Techniki akupunktury – dodatkowe skuteczne narzędzia do Twojej praktyki",
-    description: "brak opisu",
+    description:
+      "Warsztaty o charakterze praktycznym i interaktywnym, podzielone na dwie sesje. Poznamy niezwykłą," +
+      " a jednocześnie prostą technikę zwaną Techniką Nadgarstkowo-Kostkową (Wrist-Ankle Technique, WAT). Ta stosunkowo nowoczesna metoda akupunktury zdobyła uznanie dzięki swojej prostocie, bezbolesności i wysokiej skuteczności w praktyce klinicznej. Jako technika mikrosystemowa, WAT jest szczególnie efektywna w leczeniu ostrego bólu mięśniowo-szkieletowego.\n      \n      Podczas warsztatów nauczysz się, jak włączyć tę metodę do swojej praktyki, poprawiając wyniki kliniczne przy minimalnym stopniu skomplikowania.\n      \n      Warsztaty te stanowią wyjątkową okazję do poszerzenia swojego zestawu narzędzi o techniki, które są zarówno praktyczne, jak i skuteczne, zapewniając, że zdobędziesz umiejętności, które możesz natychmiast zastosować w swojej praktyce klinicznej.\n      Program:\n      Tło historyczne;\n      Lokalizacja punktów;\n      Lokalizacja stref terapeutycznych;\n      Proces terapeutyczny;\n      Wskazania i przeciwwskazania;\n      Praktyczne zastosowanie zdobytej wiedzy;\n      Omówienie przypadków klinicznych.\n      Zastrzeżenie: Informacje/tematy zawarte w programie mogą ulec zmianie bez wcześniejszego powiadomienia.",
   },
   {
     id: 12,
@@ -219,21 +221,6 @@ Chcesz dowiedzieć się dlaczego Pc 6 aktywuje Yin Wei Mai, jak San Jiao dystryb
       "Atopowe zapalenie skóry (AZS), najczęstsza forma egzemy, osiągnęła poziom epidemii, dotykając około 30% dzieci. Stanowi to 2- do 3-krotny wzrost w ciągu ostatnich kilku dekad. AZS jest często powiązane z innymi schorzeniami ogólnoustrojowymi, w tym astmą, alergicznym nieżytem nosa i alergiami pokarmowymi, co czyni je istotnym problemem w opiece pediatrycznej.\n" +
       "Dzięki czterdziestoletniemu doświadczeniu klinicznemu w leczeniu tego schorzenia stwierdziłem, że chińska medycyna ziołowa jest wysoce skuteczna we wszystkich grupach wiekowych. Jednak, podobnie jak w przypadku innych schorzeń dotykających niemowlęta - takich jak astma i alergie pokarmowe - najlepsze długoterminowe wyniki osiąga się, gdy leczenie rozpoczyna się wcześnie. Jest to zgodne z zasadą, że wczesna interwencja w systemy biologiczne promuje większą stabilność i trwałą poprawę.\n" +
       "W tym wykładzie przedstawię podstawowe zasady leczenia niemowląt z atopowym zapaleniem skóry i omówię znaczenie terminowej, skutecznej interwencji.",
-  },
-
-  // Dodatkowy wykład Giulii Boschi (Pięć Duchów) – również bez daty
-  {
-    id: 13,
-    name: "GIULIA BOSCHI",
-    imageUrl: Giulia,
-    date: null,
-    title:
-      "Pięć Duchów jako manifestacja jednego Źródła - Shen na podstawie tekstów źródłowych klasycznej medycyny chińskiej",
-    description: `„Niebiosa manifestują się jako 德 dé we mnie. Ziemia manifestuje się jako 氣 qì we mnie.”
-Ten cytat pochodzi z rozdziału 8 Ling Shu zatytułowanego „Duch jako Źródło” (本神 běn shén). 德 dé oznacza wewnętrzną, wrodzoną moc, cnotę, natomiast 氣 qì to życiodajny oddech, siła życiowa. Cytat ten stanowi kwintesencję źródła życia. W dalszej części tego tekstu wyjaśnione są pojęcia Pięciu Duchów – 神 shén, 魄 pò, 魂 hún, 意 yì oraz 志 zhì. Przyjrzymy się etiologii tych chińskich znaków oraz ich manifestacji w życiu człowieka – temu, jak wpływają na emocje, fizjologię i patologię.
-
-Druga część wykładu będzie poświęcona praktycznemu zastosowaniu tej teorii – temu jak smaki terapeutyczne korespondują z częstotliwością Pięciu Przemian (五行 wǔ xíng) i jak przekłada się to na zioła i receptury ziołowe wpływające na emocje. Odpowiemy na pytanie, dlaczego z każdą z przemian związane są przynajmniej trzy smaki, a nie jeden. Sięgniemy przy tym do fragmentów takich dzieł jak Ling Shu, Su Wen, Nan Jing, Shang Han Za Bing Lun i Fu Xing Jue.
-`,
   },
 ];
 
@@ -478,7 +465,19 @@ If you are curious why Pc 6 activates the Yin Wei Mai, how the San Jiao distribu
     date: null,
     title:
       "Workshop: Acupuncture Techniques - Adding effective tools to your Clinical Toolkit",
-    description: "no description",
+    description:
+      "Practical and interactive workshop, divided into two sessions. We will explore a remarkable yet simple technique called the Wrist-Ankle Technique (WAT). This relatively modern acupuncture method has gained recognition due to its simplicity, painlessness, and high clinical effectiveness. As a microsystem technique, WAT is particularly effective in treating acute musculoskeletal pain.\n\n" +
+      "During the workshop, you will learn how to integrate this method into your practice, improving clinical outcomes with minimal complexity.\n\n" +
+      "This workshop provides a unique opportunity to expand your clinical toolkit with techniques that are both practical and effective, ensuring that you acquire skills you can immediately apply in your clinical work.\n" +
+      "Program:\n" +
+      "Historical background;\n" +
+      "Point location;\n" +
+      "Therapeutic zone mapping;\n" +
+      "Therapeutic process;\n" +
+      "Indications and contraindications;\n" +
+      "Practical application of the acquired knowledge;\n" +
+      "Discussion of clinical cases.\n" +
+      "Disclaimer: Information/topics covered in the program may be subject to change without prior notice.",
   },
   {
     id: 12,
@@ -492,22 +491,6 @@ If you are curious why Pc 6 activates the Yin Wei Mai, how the San Jiao distribu
       "With four decades of clinical experience managing this condition, I have found Chinese herbal medicine to be highly effective across all age groups. However, as with other conditions that affect infants - such as asthma and food allergies - the best long-term outcomes are achieved when treatment begins early. This aligns with the principle that early intervention in biological systems promotes greater stability and sustained improvement.\n" +
       "\n" +
       "In this talk, I will outline the fundamental principles of treating infants with atopic dermatitis and discuss the importance of timely, effective intervention.",
-  },
-
-  // Additional lecture from Giulia Boschi (Five Spirits)
-  {
-    id: 13,
-    name: "GIULIA BOSCHI",
-    imageUrl: Giulia,
-    date: null,
-    title:
-      "The Five Spirits as a Manifestation of One Source - Shen based on the Source Texts of Classical Chinese Medicine",
-    description: `“Heaven manifests as 德 dé within me. Earth manifests as 氣 qì within me.”
-
-This quote comes from Chapter 8 of the Ling Shu, titled “Spirit as the Root” (本神 běn shén). 德 dé refers to an inner, innate virtue or power, while 氣 qì is the life-giving breath, the vital force. This passage encapsulates the essence of life’s origin. Later in this text, the concepts of the Five Spirits—神 shén, 魄 pò, 魂 hún, 意 yì, and 志 zhì—are explained. We will explore the etymology of these Chinese characters and how they manifest in human life—how they affect our emotions, physiology, and pathology.
-
-The second part of the lecture focuses on the practical application of this theory—how therapeutic flavors correspond to the frequency of the Five Phases (五行 wǔ xíng), and how this translates into herbs and herbal formulas that influence emotions. We will answer why each phase is associated with at least three flavors rather than just one. In doing so, we will reference passages from works such as the Ling Shu, Su Wen, Nan Jing, Shang Han Za Bing Lun, and Fu Xing Jue.
-`,
   },
 ];
 
