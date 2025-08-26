@@ -16,19 +16,19 @@ const schedulePL = [
     timeSlots: [
       {
         name: "Powitanie",
-        description: "Izabela Miętka, Kasia Sieluk, Yair Maimon, Ela Heland",
+        description: null,
         start: "10:00",
         end: "10:30",
       },
       {
         name: "Wykład",
-        description: "Yair Maimon",
+        description: "Ricardo Teixeira",
         start: "10:30",
         end: "11:00",
       },
       {
         name: "Wykład",
-        description: "Izabela Miętka",
+        description: "Giulia Boschi",
         start: "11:00",
         end: "11:30",
       },
@@ -40,19 +40,20 @@ const schedulePL = [
       },
       {
         name: "Wykład",
-        description: "Giulia Boschi",
+        description: "Marta Nizioł",
         start: "12:00",
         end: "12:30",
       },
       {
         name: "Wykład",
-        description: "Ricardo Teixeira",
+        description: "Bartosz Chmielnicki",
         start: "12:30",
         end: "13:00",
       },
+
       {
         name: "Wykład",
-        description: "Marta Nizioł",
+        description: "Izabela Miętka",
         start: "13:00",
         end: "13:30",
       },
@@ -72,7 +73,7 @@ const schedulePL = [
       {
         name: "Wykład 2",
         description:
-          "Elżbieta Heland. Pięć Duchów jako manifestacja jednego źródła – Shen na podstawie tekstów źródłowych klasycznej medycyny chińskiej.",
+          "Jeffrey Hui Zhang. Weiqi (Qi obronne) i Wei-Qi (poziomy): Integracja Shang Han Lun i Wen Bing.",
         start: "15:00",
         end: "18:00",
       },
@@ -205,7 +206,7 @@ const schedulePL = [
       {
         name: "Wykład 1",
         description:
-          "Jeffrey Hui Zhang. Weiqi (Qi obronne) i Wei-Qi (poziomy): Integracja Shang Han Lun i Wen Bing.",
+          "Elżbieta Heland. Pięć Duchów jako manifestacja jednego źródła – Shen na podstawie tekstów źródłowych klasycznej medycyny chińskiej.",
         start: "13:30",
         end: "16:30",
       },
@@ -239,19 +240,19 @@ const scheduleEN = [
     timeSlots: [
       {
         name: "Welcome",
-        description: "Izabela Miętka, Kasia Sieluk, Yair Maimon, Ela Heland",
+        description: null,
         start: "10:00",
         end: "10:30",
       },
       {
         name: "Lecture",
-        description: "Yair Maimon",
+        description: "Ricardo Teixeira",
         start: "10:30",
         end: "11:00",
       },
       {
         name: "Lecture",
-        description: "Izabela Miętka",
+        description: "Giulia Boschi",
         start: "11:00",
         end: "11:30",
       },
@@ -263,19 +264,19 @@ const scheduleEN = [
       },
       {
         name: "Lecture",
-        description: "Giulia Boschi",
+        description: "Marta Nizioł",
         start: "12:00",
         end: "12:30",
       },
       {
         name: "Lecture",
-        description: "Ricardo Teixeira",
+        description: "Bartosz Chmielnicki",
         start: "12:30",
         end: "13:00",
       },
       {
         name: "Lecture",
-        description: "Marta Nizioł",
+        description: "Izabela Miętka",
         start: "13:00",
         end: "13:30",
       },
@@ -295,7 +296,7 @@ const scheduleEN = [
       {
         name: "Lecture 2",
         description:
-          "Elżbieta Heland. Five Spirits as the manifestation of a single source – Shen based on classical Chinese medicine texts.",
+          "Jeffrey Hui Zhang. WeiQi (Defensive Qi) and Wei-Qi (Levels): Integrating Shang Han Lun and Wen Bing.",
         start: "15:00",
         end: "18:00",
       },
@@ -425,14 +426,14 @@ const scheduleEN = [
       {
         name: "Lecture 1",
         description:
-          "Jeffrey Hui Zhang. WeiQi (Defensive Qi) and Wei-Qi (Levels): Integrating Shang Han Lun and Wen Bing.",
+          "Elżbieta Heland. The Five Spirits as a Manifestation of the One Source – Shen in Classical Chinese Medicine texts.",
         start: "13:30",
         end: "16:30",
       },
       {
         name: "Lecture 2",
         description:
-          "Bartosz Chmielnicki. Incarnation: Hun, Po, and Embryology.",
+          "Bartosz Chmielnicki. Incarnation: Hun, Po and Embryology.",
         start: "13:30",
         end: "16:30",
       },
