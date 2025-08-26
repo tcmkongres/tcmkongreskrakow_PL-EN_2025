@@ -125,12 +125,6 @@ const schedulePL = [
         end: "15:00",
       },
       {
-        name: "Ricardo Teixeira",
-        description: null,
-        start: "13:30",
-        end: "15:00",
-      },
-      {
         name: "Wykład 1",
         description:
           "Hamid Montakab. 8 Kanałów Cudownych oraz profile psychologiczne cz.2",
@@ -150,6 +144,12 @@ const schedulePL = [
           "Jong Baik. Wyjaśnienie Wzajemnej Zależności między Jing, Qi i Shen.",
         start: "15:00",
         end: "18:00",
+      },
+      {
+        name: "Wykład 4",
+        description: "Przyszłość zawodu terapeuty medycyny chińskiej.",
+        start: "18:00",
+        end: "19:00",
       },
       {
         name: "Bankiet",
@@ -346,12 +346,6 @@ const scheduleEN = [
         end: "15:00",
       },
       {
-        name: "Ricardo Teixeira",
-        description: null,
-        start: "13:30",
-        end: "15:00",
-      },
-      {
         name: "Lecture 1",
         description:
           "Hamid Montakab. The 8 Extraordinary Vessels and psychological profiles part 2.",
@@ -371,6 +365,12 @@ const scheduleEN = [
           "Jong Baik. An Explanation of the Interrelationship between Jing, Qi and Shen.",
         start: "15:00",
         end: "18:00",
+      },
+      {
+        name: "Lecture 4",
+        description: "The future of the Chinese medicine therapist profession.",
+        start: "18:00",
+        end: "19:00",
       },
       {
         name: "Banquet",
