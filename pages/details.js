@@ -222,6 +222,15 @@ Chcesz dowiedzieć się dlaczego Pc 6 aktywuje Yin Wei Mai, jak San Jiao dystryb
       "Dzięki czterdziestoletniemu doświadczeniu klinicznemu w leczeniu tego schorzenia stwierdziłem, że chińska medycyna ziołowa jest wysoce skuteczna we wszystkich grupach wiekowych. Jednak, podobnie jak w przypadku innych schorzeń dotykających niemowlęta - takich jak astma i alergie pokarmowe - najlepsze długoterminowe wyniki osiąga się, gdy leczenie rozpoczyna się wcześnie. Jest to zgodne z zasadą, że wczesna interwencja w systemy biologiczne promuje większą stabilność i trwałą poprawę.\n" +
       "W tym wykładzie przedstawię podstawowe zasady leczenia niemowląt z atopowym zapaleniem skóry i omówię znaczenie terminowej, skutecznej interwencji.",
   },
+  {
+    id: 13,
+    name: "Sesja plenarna",
+    imageUrl: null,
+    date: null,
+    title: "Mikrobiota w ujęciu Tradycyjnej Medycyny Chińskiej",
+    description: `Podczas tego 30-minutowego wykładu zostanie omówione, jak Tradycyjna Medycyna Chińska (TCM) postrzega mikrobiotę w organizmie – złożony ekosystem bakterii, wirusów, grzybów i innych mikroorganizmów, szczególnie w obrębie układu trawiennego.
+Zaburzenie równowagi mikrobioty, znane jako dysbioza, może zakłócać funkcje organizmu i przyczyniać się do różnych schorzeń, w tym chorób sercowo-naczyniowych, nowotworów i zaburzeń układu oddechowego. Zrozumienie roli mikrobioty z perspektywy TCM dostarcza cennych wskazówek dotyczących utrzymania równowagi i ogólnego dobrostanu.`,
+  },
 ];
 
 //////////////////////////////////////////////
@@ -492,6 +501,15 @@ If you are curious why Pc 6 activates the Yin Wei Mai, how the San Jiao distribu
       "\n" +
       "In this talk, I will outline the fundamental principles of treating infants with atopic dermatitis and discuss the importance of timely, effective intervention.",
   },
+  {
+    id: 13,
+    name: "Plenary Session",
+    imageUrl: null,
+    date: null,
+    title: "Microbiota in the Perspective of Traditional Chinese Medicine",
+    description:
+      "During this 30-minute lecture, it will be discussed how Traditional Chinese Medicine (TCM) perceives the microbiota in the body – a complex ecosystem of bacteria, viruses, fungi, and other microorganisms, particularly within the digestive system.\nAn imbalance of the microbiota, known as dysbiosis, can disrupt the body's functions and contribute to various conditions, including cardiovascular diseases, cancers, and respiratory disorders. Understanding the role of microbiota from the TCM perspective provides valuable insights into maintaining balance and overall well-being.",
+  },
 ];
 
 function Example() {
@@ -503,13 +521,15 @@ function Example() {
       {comments.map((comment) => (
         <li key={comment.id} className="flex items-start gap-6 py-8">
           <div className="flex-shrink-0">
-            <Image
-              src={comment.imageUrl}
-              alt={comment.name}
-              width={128}
-              height={128}
-              className="w-32 h-32 rounded-lg object-cover object-top"
-            />
+            {comment.imageUrl && (
+              <Image
+                src={comment.imageUrl}
+                alt={comment.name}
+                width={128}
+                height={128}
+                className="w-32 h-32 rounded-lg object-cover object-top"
+              />
+            )}
           </div>
 
           {/* Sekcja tekstowa */}
