@@ -180,7 +180,7 @@ const schedulePL = [
       {
         name: "Wykład 2",
         description:
-          "Giulia Boschi. Poza siedmioma qing: język emocji w klasycznej medycynie chińskiej.",
+          "Bartosz Chmielnicki. Wcielenie, czyli Hun, Po i embriologia.",
         start: "9:30",
         end: "12:30",
       },
@@ -213,7 +213,7 @@ const schedulePL = [
       {
         name: "Wykład 2",
         description:
-          "Bartosz Chmielnicki. Wcielenie, czyli Hun, Po i embriologia.",
+          "Giulia Boschi. Poza siedmioma qing: język emocji w klasycznej medycynie chińskiej.",
         start: "13:30",
         end: "16:30",
       },
@@ -401,7 +401,7 @@ const scheduleEN = [
       {
         name: "Lecture 2",
         description:
-          "Giulia Boschi. Beyond the seven qing: the language of emotions in Classical Chinese Medicine.",
+          "Bartosz Chmielnicki. Incarnation: Hun, Po and Embryology.",
         start: "9:30",
         end: "12:30",
       },
@@ -433,7 +433,7 @@ const scheduleEN = [
       {
         name: "Lecture 2",
         description:
-          "Bartosz Chmielnicki. Incarnation: Hun, Po and Embryology.",
+          "Giulia Boschi. Beyond the seven qing: the language of emotions in Classical Chinese Medicine.",
         start: "13:30",
         end: "16:30",
       },
