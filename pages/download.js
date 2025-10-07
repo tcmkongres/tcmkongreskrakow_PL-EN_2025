@@ -236,6 +236,33 @@ const Downloa = () => {
                         </a>
                       </div>
                     </li>
+                    <li className="flex items-center justify-between py-4 pl-4 pr-5 text-sm leading-6">
+                      <div className="flex w-0 flex-1 items-center">
+                        <PaperClipIcon
+                            className="h-5 w-5 flex-shrink-0 text-gray-400"
+                            aria-hidden="true"
+                        />
+                        <div className="ml-4 flex min-w-0 flex-1 gap-2">
+                          <span className="truncate font-medium">
+                            TCM Kongres Biuletyn 2025.pdf
+                          </span>
+                          <span className="flex-shrink-0 text-gray-400">
+                            {/*3.7 MB*/}
+                          </span>
+                        </div>
+                      </div>
+                      <div className="ml-4 flex-shrink-0">
+                        <a
+                            href="files/TCM_Kongres_Biuletyn_2025.pdf"
+                            download="TCM_Kongres_Biuletyn_2025.pdf"
+                            target="_blank"
+                            rel="noreferrer"
+                            className="font-medium text-indigo-600 hover:text-indigo-500"
+                        >
+                          {t("opis_Download4")}
+                        </a>
+                      </div>
+                    </li>
                   </ul>
                 </dd>
               </div>
