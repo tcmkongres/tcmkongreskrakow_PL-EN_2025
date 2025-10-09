@@ -263,6 +263,60 @@ const Downloa = () => {
                         </a>
                       </div>
                     </li>
+                    <li className="flex items-center justify-between py-4 pl-4 pr-5 text-sm leading-6">
+                      <div className="flex w-0 flex-1 items-center">
+                        <PaperClipIcon
+                            className="h-5 w-5 flex-shrink-0 text-gray-400"
+                            aria-hidden="true"
+                        />
+                        <div className="ml-4 flex min-w-0 flex-1 gap-2">
+                          <span className="truncate font-medium">
+                            Handout Atopic Dermatitis in Infants.pdf
+                          </span>
+                          <span className="flex-shrink-0 text-gray-400">
+                            {/* File size if available */}
+                          </span>
+                        </div>
+                      </div>
+                      <div className="ml-4 flex-shrink-0">
+                        <a
+                            href="files/Handout_Atopic_Dermatitis_in_Infants.pdf"
+                            download="Handout Atopic Dermatitis in Infants.pdf"
+                            target="_blank"
+                            rel="noreferrer"
+                            className="font-medium text-indigo-600 hover:text-indigo-500"
+                        >
+                          {t("opis_Download4")}
+                        </a>
+                      </div>
+                    </li>
+                    <li className="flex items-center justify-between py-4 pl-4 pr-5 text-sm leading-6">
+                      <div className="flex w-0 flex-1 items-center">
+                        <PaperClipIcon
+                            className="h-5 w-5 flex-shrink-0 text-gray-400"
+                            aria-hidden="true"
+                        />
+                        <div className="ml-4 flex min-w-0 flex-1 gap-2">
+                          <span className="truncate font-medium">
+                            Intro to Dermatology (Poland) Handout 2025.pdf
+                          </span>
+                          <span className="flex-shrink-0 text-gray-400">
+                            {/* File size if available */}
+                          </span>
+                        </div>
+                      </div>
+                      <div className="ml-4 flex-shrink-0">
+                        <a
+                            href="files/Intro_to_Dermatology_(Poland)_Handout_2025.pdf"
+                            download="Intro to Dermatology (Poland) Handout 2025.pdf"
+                            target="_blank"
+                            rel="noreferrer"
+                            className="font-medium text-indigo-600 hover:text-indigo-500"
+                        >
+                          {t("opis_Download4")}
+                        </a>
+                      </div>
+                    </li>
                   </ul>
                 </dd>
               </div>
