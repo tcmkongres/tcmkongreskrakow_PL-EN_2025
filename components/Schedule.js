@@ -11,7 +11,7 @@ import { useRouter } from "next/router";
 const schedulePL = [
   {
     date: "Piątek",
-    dateTime: "2023-10-13",
+    dateTime: "2025-10-10",
     summary: "Dzień 1.",
     timeSlots: [
       {
@@ -88,7 +88,7 @@ const schedulePL = [
   },
   {
     date: "Sobota",
-    dateTime: "2023-10-14",
+    dateTime: "2025-10-11",
     summary: "Dzień 2.",
     timeSlots: [
       {
@@ -161,7 +161,7 @@ const schedulePL = [
   },
   {
     date: "Niedziela",
-    dateTime: "2023-10-15",
+    dateTime: "2025-10-12",
     summary: "Dzień 3.",
     timeSlots: [
       {
@@ -174,21 +174,21 @@ const schedulePL = [
         name: "Wykład 1",
         description:
           "Jong Baik. Podejście multi-mikrosystemowe w pracy z bólem.",
-        start: "9:30",
+        start: "09:30",
         end: "12:30",
       },
       {
         name: "Wykład 2",
         description:
           "Bartosz Chmielnicki. Wcielenie, czyli Hun, Po i embriologia.",
-        start: "9:30",
+        start: "09:30",
         end: "12:30",
       },
       {
         name: "Wykład 3",
         description:
           "Mieke Fraussen. CZYTANIE Z TWARZY, TRAUMA I UZDROWIENIE. Cz.1",
-        start: "9:30",
+        start: "09:30",
         end: "12:30",
       },
       {
@@ -235,7 +235,7 @@ const schedulePL = [
 const scheduleEN = [
   {
     date: "Friday",
-    dateTime: "2023-10-13",
+    dateTime: "2025-10-10",
     summary: "Day 1.",
     timeSlots: [
       {
@@ -310,7 +310,7 @@ const scheduleEN = [
   },
   {
     date: "Saturday",
-    dateTime: "2023-10-14",
+    dateTime: "2025-10-11",
     summary: "Day 2.",
     timeSlots: [
       {
@@ -382,7 +382,7 @@ const scheduleEN = [
   },
   {
     date: "Sunday",
-    dateTime: "2023-10-15",
+    dateTime: "2025-10-12",
     summary: "Day 3.",
     timeSlots: [
       {
@@ -395,20 +395,20 @@ const scheduleEN = [
         name: "Lecture 1",
         description:
           "Jong Baik. A Multi-Microsystems Approach to Pain and Pain Management.",
-        start: "9:30",
+        start: "09:30",
         end: "12:30",
       },
       {
         name: "Lecture 2",
         description:
           "Bartosz Chmielnicki. Incarnation: Hun, Po and Embryology.",
-        start: "9:30",
+        start: "09:30",
         end: "12:30",
       },
       {
         name: "Lecture 3",
         description: "Mieke Fraussen. Face Reading, Trauma & Healing part 1.",
-        start: "9:30",
+        start: "09:30",
         end: "12:30",
       },
       {
@@ -544,10 +544,7 @@ function TimeSlots({ day, className }) {
       )}
     >
       {day.timeSlots.map((timeSlot, timeSlotIndex) => (
-        <li
-          key={timeSlotIndex}
-          aria-label={`${timeSlot.name} talking about ${timeSlot.description} at ${timeSlot.start} - ${timeSlot.end}`}
-        >
+        <li key={timeSlotIndex}>
           {timeSlotIndex > 0 && (
             <div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
           )}
@@ -560,11 +557,11 @@ function TimeSlots({ day, className }) {
             </p>
           )}
           <p className="mt-1 font-mono text-sm text-blue-500">
-            <time dateTime={`${day.dateTime}T${timeSlot.start}-08:00`}>
+            <time dateTime={`${day.dateTime}T${timeSlot.start}+02:00`}>
               {timeSlot.start}
             </time>{" "}
             -{" "}
-            <time dateTime={`${day.dateTime}T${timeSlot.end}-08:00`}>
+            <time dateTime={`${day.dateTime}T${timeSlot.end}+02:00`}>
               {timeSlot.end}
             </time>{" "}
           </p>
@@ -597,10 +594,17 @@ function ScheduleStatic() {
 export function Schedule() {
   const { t } = useTranslation("common");
   return (
-    <section id="schedule" aria-label="Schedule" className="py-20 sm:py-32">
+    <section
+      id="schedule"
+      aria-labelledby="schedule-heading"
+      className="py-20 sm:py-32"
+    >
       <Container className="relative z-10">
         <div className="mx-auto max-w-xl text-center">
-          <h2 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+          <h2
+            id="schedule-heading"
+            className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"
+          >
             {t("tytul_Schedule")}
           </h2>
           <p className="mx-auto mt-6 max-w-2xl text-center text-lg leading-8 text-gray-600">
