@@ -75,7 +75,7 @@ export default function Faqs() {
   const faqs = router.locale === "pl" ? faqsPL : faqsEN;
   const { t } = useTranslation("common");
   return (
-    <div className=" relative isolate">
+    <section className=" relative isolate">
       <div
         className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl"
         aria-hidden="true"
@@ -132,6 +132,6 @@ export default function Faqs() {
           }}
         />
       </div>
-    </div>
+    </section>
   );
 }

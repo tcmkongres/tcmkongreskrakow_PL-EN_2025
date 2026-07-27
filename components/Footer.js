@@ -54,6 +54,9 @@ export default function Footer() {
   return (
     <footer className="bg-gray-900" aria-labelledby="footer-heading">
       <div className="mx-auto max-w-7xl overflow-hidden px-6 py-20 sm:py-24 lg:px-8">
+        <h2 id="footer-heading" className="sr-only">
+          {router.locale === "pl" ? "Stopka" : "Footer"}
+        </h2>
         <nav
           className="-mb-6 sm:columns-2 sm:flex sm:justify-center sm:space-x-12"
           aria-label="Footer"
@@ -73,7 +76,6 @@ export default function Footer() {
               className="text-2xl leading-6 text-gray-600 hover:text-gray-900"
               target="_blank"
               rel="noreferrer"
-              id="link"
               href="/download"
             >
               {t("tytul_Koszyk2")}
@@ -95,7 +97,6 @@ export default function Footer() {
             </a>
           ))}
         </div>
-        <p className="mt-10 text-center text-xs leading-5 text-gray-500"></p>
         <p className="mt-10 text-center text-xs leading-5 text-gray-500">
           &copy; 2023-{currentYear}. All rights reserved. Made with ❤️ by{" "}
           <a

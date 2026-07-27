@@ -5,7 +5,7 @@ import { useRouter } from "next/router";
 export default function Page() {
   const router = useRouter();
   return router.locale === "pl" ? (
-    <div className="bg-white px-6 py-32 lg:px-8">
+    <main className="bg-white px-6 py-32 lg:px-8">
       <div className="mx-auto max-w-3xl text-base leading-7 text-gray-700">
         <p className="text-base font-semibold leading-7 mb-4 text-indigo-600">
           <Link
@@ -241,9 +241,9 @@ export default function Page() {
           </ul>
         </div>
       </div>
-    </div>
+    </main>
   ) : (
-    <div className="bg-white px-6 py-32 lg:px-8">
+    <main className="bg-white px-6 py-32 lg:px-8">
       <div className="mx-auto max-w-3xl text-base leading-7 text-gray-700">
         <p className="text-base font-semibold leading-7 mb-4 text-indigo-600">
           <Link
@@ -478,6 +478,6 @@ export default function Page() {
           </ul>
         </div>
       </div>
-    </div>
+    </main>
   );
 }

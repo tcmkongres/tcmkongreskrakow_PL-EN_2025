@@ -15,11 +15,11 @@ export default function SpeakerPage() {
   const speaker = people.find((p) => p.url.replace("/", "") === slug);
 
   if (!speaker) {
-    return <div>Speaker not found</div>;
+    return <main>Speaker not found</main>;
   }
 
   return (
-    <div className="py-24 sm:py-32">
+    <main className="py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto grid max-w-2xl grid-cols-1 items-start gap-x-8 gap-y-16 sm:gap-y-24 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div className="lg:pr-4">
@@ -50,7 +50,7 @@ export default function SpeakerPage() {
                 <p className="mt-6">{t("opis2")}</p>
               </div>
             </div>
-            <dl className="mt-10 grid grid-cols-2 gap-8 border-t border-gray-900/10 pt-10 sm:grid-cols-4" />
+            <div className="mt-10 border-t border-gray-900/10 pt-10" />
             <div className="mt-10 flex">
               <Link
                 href="/details"
@@ -62,7 +62,7 @@ export default function SpeakerPage() {
           </div>
         </div>
       </div>
-    </div>
+    </main>
   );
 }
 

@@ -535,16 +535,16 @@ function Example() {
           {/* Sekcja tekstowa */}
           <div className="flex-auto">
             <div className="flex items-baseline justify-between">
-              <p className="text-lg font-semibold leading-7 text-gray-900">
+              <h2 className="text-lg font-semibold leading-7 text-gray-900">
                 {comment.name}
-              </p>
-              <p className="text-xs text-gray-600">
-                <time dateTime={comment.dateTime}>{comment.date}</time>
-              </p>
+              </h2>
+              {comment.date && (
+                <p className="text-xs text-gray-600">{comment.date}</p>
+              )}
             </div>
-            <p className="mt-2 text-base font-medium leading-7 text-gray-900">
+            <h3 className="mt-2 text-base font-medium leading-7 text-gray-900">
               {comment.title}
-            </p>
+            </h3>
             <p className="mt-1 text-sm leading-6 text-gray-600">
               {comment.description}
             </p>
@@ -560,7 +560,7 @@ const Details = () => {
 
   return (
     <>
-      <div className="bg-white px-6 py-32 lg:px-8">
+      <main className="bg-white px-6 py-32 lg:px-8">
         <div className="mx-auto max-w-4xl min-h-full text-lg leading-8 text-gray-700">
           <div data-free="true" className="px-4 sm:px-0">
             <p className="text-base font-semibold leading-7 mb-4 text-indigo-600">
@@ -573,9 +573,9 @@ const Details = () => {
                 {t("back")}
               </Link>
             </p>
-            <h2 className="text-2xl font-bold leading-8 text-gray-900">
+            <h1 className="text-2xl font-bold leading-8 text-gray-900">
               Tematy na Kongresie
-            </h2>
+            </h1>
             <p className="mt-2 max-w-2xl text-lg leading-8 text-gray-600">
               Szczegółowy opis tematów, jakie będą poruszane podczas kongresu.
             </p>
@@ -585,7 +585,7 @@ const Details = () => {
             <Example />
           </div>
         </div>
-      </div>
+      </main>
     </>
   );
 };

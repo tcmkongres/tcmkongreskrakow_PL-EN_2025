@@ -5,7 +5,7 @@ import { useTranslation } from "next-i18next";
 export default function Hotel() {
   const { t } = useTranslation("common");
   return (
-    <div className="overflow-hidden bg-white py-24 sm:py-32">
+    <section className="overflow-hidden bg-white py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="grid grid-cols-1 gap-16 lg:grid-cols-2 lg:items-center">
           <div>
@@ -43,6 +43,6 @@ export default function Hotel() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

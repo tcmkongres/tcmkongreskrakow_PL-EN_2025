@@ -8,7 +8,7 @@ export default function Page() {
   const { t } = useTranslation("maimon");
   const { t: tcommon } = useTranslation("common");
   return (
-    <div className="bg-white py-24 sm:py-32">
+    <main className="bg-white py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto grid max-w-2xl grid-cols-1 items-start gap-x-8 gap-y-16 sm:gap-y-24 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div className="lg:pr-4 ">
@@ -16,7 +16,7 @@ export default function Page() {
               <Image
                 className="absolute inset-0 h-full w-full bg-gray-50 object-cover"
                 src={Maimon}
-                alt=""
+                alt={t("opis1")}
               />
             </div>
           </div>
@@ -39,7 +39,7 @@ export default function Page() {
                 <p className="mt-6"> {t("opis4")}</p>
               </div>
             </div>
-            <dl className="mt-10 grid grid-cols-2 gap-8 border-t border-gray-900/10 pt-10 sm:grid-cols-4"></dl>
+            <div className="mt-10 border-t border-gray-900/10 pt-10" />
             <div className="mt-10 flex">
               <Link
                 href="/details"
@@ -51,7 +51,7 @@ export default function Page() {
           </div>
         </div>
       </div>
-    </div>
+    </main>
   );
 }
 export async function getStaticProps({ locale }) {

@@ -73,12 +73,12 @@ export default function Shopping() {
   const tiers = router.locale === "pl" ? ticketPL : ticketEN;
   const { t } = useTranslation("common");
   return (
-    <div className="isolate overflow-hidden bg-gray-900">
+    <section className="isolate overflow-hidden bg-gray-900">
       <div className="mx-auto max-w-7xl px-6 pb-96 pt-24 text-center sm:pt-32 lg:px-8">
         <div className="mx-auto max-w-4xl">
-          <p className="mt-2 text-4xl font-bold tracking-tight text-white sm:text-5xl">
+          <h2 className="mt-2 text-4xl font-bold tracking-tight text-white sm:text-5xl">
             {t("tytul_Koszyk")}
-          </p>
+          </h2>
         </div>
         <div className="relative mt-6">
           <p className="mx-auto max-w-2xl text-lg leading-8 text-white/60">
@@ -165,7 +165,6 @@ export default function Shopping() {
                   className="rounded-md px-3.5 py-2 text-sm font-semibold leading-6 text-indigo-600 ring-1 ring-inset ring-indigo-200 hover:ring-indigo-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                   target="_blank"
                   rel="noreferrer"
-                  id="link"
                   href="/download"
                 >
                   {t("go_Koszyk")} <span aria-hidden="true">&rarr;</span>
@@ -175,6 +174,6 @@ export default function Shopping() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

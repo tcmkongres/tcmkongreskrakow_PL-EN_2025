@@ -5,7 +5,7 @@ import { useRouter } from "next/router";
 export default function Page() {
   const router = useRouter();
   return router.locale === "pl" ? (
-    <div className="bg-white px-6 py-32 lg:px-8">
+    <main className="bg-white px-6 py-32 lg:px-8">
       <div className="mx-auto max-w-3xl text-base leading-7 text-gray-700">
         <p className="text-base font-semibold leading-7 mb-4 text-indigo-600">
           <Link
@@ -16,10 +16,13 @@ export default function Page() {
           </Link>
         </p>
         <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+          Polityka Prywatności
+        </h1>
+        <p className="mt-6 text-base leading-7 text-gray-600">
           Polityka Prywatności określa zasady przetwarzania i ochrony danych
           osobowych, przekazywanych przez Użytkowników serwisu internetowego TCM
           KONGRES KRAKÓW 2025, dalej „Serwis” lub „Serwis internetowy”.
-        </h1>
+        </p>
 
         <div className="mt-10">
           <ul role="list" className="mt-8 space-y-8 text-gray-600">
@@ -413,9 +416,9 @@ export default function Page() {
           </ul>
         </div>
       </div>
-    </div>
+    </main>
   ) : (
-    <div className="bg-white px-6 py-32 lg:px-8">
+    <main className="bg-white px-6 py-32 lg:px-8">
       <div className="mx-auto max-w-3xl text-base leading-7 text-gray-700">
         <p className="text-base font-semibold leading-7 mb-4 text-indigo-600">
           <Link
@@ -426,11 +429,14 @@ export default function Page() {
           </Link>
         </p>
         <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+          Privacy Policy
+        </h1>
+        <p className="mt-6 text-base leading-7 text-gray-600">
           Privacy Policy defines the rules for processing and protecting
           personal data provided by Users of the TCM KONGRES KRAKÓW 2025
           website, hereinafter referred to as the &quot;Service&quot; or
           &quot;Website.&quot;
-        </h1>
+        </p>
 
         <div className="mt-10">
           <ul role="list" className="mt-8 space-y-8 text-gray-600">
@@ -697,6 +703,6 @@ export default function Page() {
           </ul>
         </div>
       </div>
-    </div>
+    </main>
   );
 }

@@ -17,34 +17,25 @@ export default function ExhibitorsSlider() {
   return (
     <div className="relative w-full overflow-hidden h-full">
       <div className="flex animate-scroll space-x-12 w-max h-full">
-        {[...logos, ...logos].map((logo, index) => (
-          <div
-            key={index}
-            className="flex-shrink-0 w-[150px] sm:w-[300px] h-full flex items-center justify-center"
-          >
-            <Image
-              src={logo}
-              alt={`Exhibitor logo ${index + 1}`}
-              className="object-contain max-h-full max-w-full"
-            />
-          </div>
-        ))}
+        {[...logos, ...logos].map((logo, index) => {
+          // druga kopia logotypów służy tylko płynnemu zapętleniu animacji
+          const isDuplicate = index >= logos.length;
+
+          return (
+            <div
+              key={index}
+              className="flex-shrink-0 w-[150px] sm:w-[300px] h-full flex items-center justify-center"
+              aria-hidden={isDuplicate || undefined}
+            >
+              <Image
+                src={logo}
+                alt={`Exhibitor logo ${(index % logos.length) + 1}`}
+                className="object-contain max-h-full max-w-full"
+              />
+            </div>
+          );
+        })}
       </div>
-
-      <style>{`
-        @keyframes scroll {
-          0% {
-            transform: translateX(0);
-          }
-          100% {
-            transform: translateX(-50%);
-          }
-        }
-
-        .animate-scroll {
-          animation: scroll 40s linear infinite;
-        }
-      `}</style>
     </div>
   );
 }

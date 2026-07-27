@@ -24,11 +24,7 @@ export default function Header() {
             >
               <Link href="/" className="-m-1.5 p-1.5">
                 <span className="sr-only">{t("tytul")}</span>
-                <Image
-                  alt="Polskie Towarzystwo Tradycyjnej Medycyny Chińskiej"
-                  className="h-26 w-auto"
-                  src={logo}
-                />
+                <Image alt="" className="h-26 w-auto" src={logo} />
               </Link>
               <LanguageSwitcher></LanguageSwitcher>
             </nav>
@@ -52,9 +48,9 @@ export default function Header() {
                 <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
                   {t("tytul")}
                 </h1>
-                <h2 className="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">
+                <p className="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">
                   {t("data")}
-                </h2>
+                </p>
                 <p className="mt-6 text-lg leading-8 text-gray-600">
                   {t("opis")}
                 </p>

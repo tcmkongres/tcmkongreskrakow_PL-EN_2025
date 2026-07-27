@@ -1,8 +1,11 @@
 import { Html, Head, Main, NextScript } from "next/document";
 
-export default function Document() {
+export default function Document(props) {
+  // język dokumentu musi odpowiadać aktualnej wersji językowej strony
+  const locale = props.__NEXT_DATA__?.locale ?? "pl";
+
   return (
-    <Html lang="pl">
+    <Html lang={locale}>
       <Head />
       <body>
         <Main />

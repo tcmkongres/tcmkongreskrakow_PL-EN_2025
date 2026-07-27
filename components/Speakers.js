@@ -14,7 +14,7 @@ export default function Speakers() {
   const { locale } = router;
 
   return (
-    <div className="bg-white py-24 sm:py-32">
+    <section className="bg-white py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl sm:text-center">
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
@@ -35,8 +35,8 @@ export default function Speakers() {
                 : `/speaker${person.url}`;
 
             return (
-              <a key={person.name} href={localizedUrl}>
-                <li>
+              <li key={person.name}>
+                <a href={localizedUrl}>
                   <Image
                     className="aspect-[4/5] w-full rounded-2xl object-cover"
                     src={person.imageUrl}
@@ -45,12 +45,12 @@ export default function Speakers() {
                   <h3 className="mt-6 text-lg font-semibold leading-8 tracking-tight text-center text-gray-900">
                     {person.name}
                   </h3>
-                </li>
-              </a>
+                </a>
+              </li>
             );
           })}
         </ul>
       </div>
-    </div>
+    </section>
   );
 }

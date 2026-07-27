@@ -5,7 +5,7 @@ export default function Exhibitors() {
   const { t } = useTranslation("common");
 
   return (
-    <div className="bg-white">
+    <section className="bg-white">
       <div className="px-6 py-24 sm:px-6 sm:py-32 lg:px-8">
         <div className="mx-auto max-w-7xl text-center">
           <h2 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
@@ -23,6 +23,6 @@ export default function Exhibitors() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

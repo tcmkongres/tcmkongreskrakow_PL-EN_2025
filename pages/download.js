@@ -32,7 +32,7 @@ const Downloa = () => {
         />
       </noscript>
       {/* Twoja reszta strony */}
-      <div className="bg-white px-6 py-32 lg:px-8">
+      <main className="bg-white px-6 py-32 lg:px-8">
         <div className="mx-auto max-w-3xl min-h-full text-base leading-7 text-gray-700">
           <div data-free="true" className="px-4 sm:px-0">
             <p className="text-base font-semibold leading-7 mb-4 text-indigo-600">
@@ -43,9 +43,9 @@ const Downloa = () => {
                 {t("back")}
               </Link>
             </p>
-            <h3 className="text-base font-semibold leading-7 text-gray-900">
+            <h1 className="text-base font-semibold leading-7 text-gray-900">
               {t("tytul_Koszyk2")}
-            </h3>
+            </h1>
             <p className="mt-1 max-w-2xl text-sm leading-6 text-gray-500">
               {t("opis_Download")}
             </p>
@@ -239,8 +239,8 @@ const Downloa = () => {
                     <li className="flex items-center justify-between py-4 pl-4 pr-5 text-sm leading-6">
                       <div className="flex w-0 flex-1 items-center">
                         <PaperClipIcon
-                            className="h-5 w-5 flex-shrink-0 text-gray-400"
-                            aria-hidden="true"
+                          className="h-5 w-5 flex-shrink-0 text-gray-400"
+                          aria-hidden="true"
                         />
                         <div className="ml-4 flex min-w-0 flex-1 gap-2">
                           <span className="truncate font-medium">
@@ -253,11 +253,11 @@ const Downloa = () => {
                       </div>
                       <div className="ml-4 flex-shrink-0">
                         <a
-                            href="files/TCM_Kongres_Biuletyn_2025.pdf"
-                            download="TCM_Kongres_Biuletyn_2025.pdf"
-                            target="_blank"
-                            rel="noreferrer"
-                            className="font-medium text-indigo-600 hover:text-indigo-500"
+                          href="files/TCM_Kongres_Biuletyn_2025.pdf"
+                          download="TCM_Kongres_Biuletyn_2025.pdf"
+                          target="_blank"
+                          rel="noreferrer"
+                          className="font-medium text-indigo-600 hover:text-indigo-500"
                         >
                           {t("opis_Download4")}
                         </a>
@@ -266,8 +266,8 @@ const Downloa = () => {
                     <li className="flex items-center justify-between py-4 pl-4 pr-5 text-sm leading-6">
                       <div className="flex w-0 flex-1 items-center">
                         <PaperClipIcon
-                            className="h-5 w-5 flex-shrink-0 text-gray-400"
-                            aria-hidden="true"
+                          className="h-5 w-5 flex-shrink-0 text-gray-400"
+                          aria-hidden="true"
                         />
                         <div className="ml-4 flex min-w-0 flex-1 gap-2">
                           <span className="truncate font-medium">
@@ -280,11 +280,11 @@ const Downloa = () => {
                       </div>
                       <div className="ml-4 flex-shrink-0">
                         <a
-                            href="files/Handout_Atopic_Dermatitis_in_Infants.pdf"
-                            download="Handout Atopic Dermatitis in Infants.pdf"
-                            target="_blank"
-                            rel="noreferrer"
-                            className="font-medium text-indigo-600 hover:text-indigo-500"
+                          href="files/Handout_Atopic_Dermatitis_in_Infants.pdf"
+                          download="Handout Atopic Dermatitis in Infants.pdf"
+                          target="_blank"
+                          rel="noreferrer"
+                          className="font-medium text-indigo-600 hover:text-indigo-500"
                         >
                           {t("opis_Download4")}
                         </a>
@@ -293,8 +293,8 @@ const Downloa = () => {
                     <li className="flex items-center justify-between py-4 pl-4 pr-5 text-sm leading-6">
                       <div className="flex w-0 flex-1 items-center">
                         <PaperClipIcon
-                            className="h-5 w-5 flex-shrink-0 text-gray-400"
-                            aria-hidden="true"
+                          className="h-5 w-5 flex-shrink-0 text-gray-400"
+                          aria-hidden="true"
                         />
                         <div className="ml-4 flex min-w-0 flex-1 gap-2">
                           <span className="truncate font-medium">
@@ -307,11 +307,11 @@ const Downloa = () => {
                       </div>
                       <div className="ml-4 flex-shrink-0">
                         <a
-                            href="files/Intro_to_Dermatology_(Poland)_Handout_2025.pdf"
-                            download="Intro to Dermatology (Poland) Handout 2025.pdf"
-                            target="_blank"
-                            rel="noreferrer"
-                            className="font-medium text-indigo-600 hover:text-indigo-500"
+                          href="files/Intro_to_Dermatology_(Poland)_Handout_2025.pdf"
+                          download="Intro to Dermatology (Poland) Handout 2025.pdf"
+                          target="_blank"
+                          rel="noreferrer"
+                          className="font-medium text-indigo-600 hover:text-indigo-500"
                         >
                           {t("opis_Download4")}
                         </a>
@@ -323,7 +323,7 @@ const Downloa = () => {
             </dl>
           </div>
         </div>
-      </div>
+      </main>
     </>
   );
 };
