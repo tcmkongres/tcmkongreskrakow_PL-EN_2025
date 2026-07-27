@@ -1,11 +1,11 @@
 import logo from "@/public/images/logo.png";
 import hero from "@/public/images/krakow-miasto.jpg";
 import Image from "next/image";
-import LanguageSwitcher from "@/components/LanguageSwitcher";
+import LanguageSwitcher from "@/components/ui/LanguageSwitcher";
 import { useTranslation } from "next-i18next";
 import { useRouter } from "next/router";
 import Link from "next/link";
-import { buyTicket, buyTicketEN } from "@/components/utils/helpers";
+import { buyTicket, buyTicketEN } from "@/lib/links";
 
 export default function Header() {
   const { t } = useTranslation("header");

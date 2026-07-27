@@ -6,7 +6,7 @@ import {
   buyTicketBankiet,
   buyTicketBankietEN,
   buyTicketEN,
-} from "@/components/utils/helpers";
+} from "@/lib/links";
 
 const ticketPL = [
   {

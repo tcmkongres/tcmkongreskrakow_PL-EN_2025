@@ -1,5 +1,5 @@
 import { useTranslation } from "next-i18next";
-import ExhibitorsSlider from "@/components/ExhibitorsSlider";
+import ExhibitorsSlider from "@/components/sections/ExhibitorsSlider";
 
 export default function Exhibitors() {
   const { t } = useTranslation("common");

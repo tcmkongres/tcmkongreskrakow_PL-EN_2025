@@ -1,5 +1,5 @@
 import { useRouter } from "next/router";
-import { people } from "@/components/utils/SpeakersData";
+import { people } from "@/lib/speakers";
 import Image from "next/image";
 import Link from "next/link";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
