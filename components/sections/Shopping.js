@@ -7,6 +7,7 @@ import {
   buyTicketBankietEN,
   buyTicketEN,
 } from "@/lib/links";
+import { track } from "@/lib/track";
 
 const ticketPL = [
   {
@@ -146,6 +147,9 @@ export default function Shopping() {
                   <a
                     href={tier.href}
                     aria-describedby={tier.id}
+                    onClick={() =>
+                      track("buy_ticket_click", { label: tier.id })
+                    }
                     className="mt-8 block rounded-md bg-indigo-600 px-3.5 py-2 text-center text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                   >
                     {t("kup_Koszyk")}

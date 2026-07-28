@@ -3,6 +3,7 @@ import { people } from "@/lib/speakers";
 
 import { useTranslation } from "next-i18next";
 import { useRouter } from "next/router";
+import { track } from "@/lib/track";
 
 people.sort((a, b) =>
   a.name.localeCompare(b.name, "pl", { sensitivity: "base" }),
@@ -29,6 +30,7 @@ export default function Speakers() {
           className="mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-14 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 xl:grid-cols-4"
         >
           {people.map((person) => {
+            const slug = person.url.replace("/", "");
             const localizedUrl =
               locale === "en"
                 ? `/en/speaker${person.url}`
@@ -36,7 +38,12 @@ export default function Speakers() {
 
             return (
               <li key={person.name}>
-                <a href={localizedUrl}>
+                <a
+                  href={localizedUrl}
+                  onClick={() =>
+                    track("speaker_click", { speaker_slug: slug })
+                  }
+                >
                   <Image
                     className="aspect-[4/5] w-full rounded-2xl object-cover"
                     src={person.imageUrl}
